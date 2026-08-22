@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>LEGE                 212 25/07/2018 - Portal Legislativ</title>
+    <link href="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/css_002.css" rel="stylesheet">
+
+    <link href="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/css.css" rel="stylesheet">
+
+    <meta name="keywords" content="LEGE                 212 25/07/2018 - Portal Legislativ">
+    <meta name="description" content="LEGE                 212 25/07/2018 - Portal Legislativ">
+    <meta name="title" content="LEGE                 212 25/07/2018 - Portal Legislativ">
+    <link href="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/bootstrap-datepicker.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://legislatie.just.ro/Content/Images/Site/temanoua/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/public.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/modernizr.js"></script>
+
+    <script src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/jquery.js"></script>
+
+    <script src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/jqueryui.js"></script>
+
+    <script src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/bootstrap.js"></script>
+
+    <script type="text/javascript" language="JavaScript">
+        var backColor = '#f0ffff';
+        var actColor = 'white';
+        var brdColor = 'black';
+        function marcheaza(id_ttl, id) {
+            /*id.style.backgroundColor=backColor;
+            id_ttl.style.cursor='pointer';
+            id.style.borderColor=brdColor;
+            id.style.borderStyle='dashed';*/
+        }
+        function demarcheaza(id_ttl, id) {
+            /*id.style.backgroundColor='transparent';
+            id_ttl.style.cursor='default';
+            id.style.borderColor=actColor;
+            id.style.borderStyle='dotted';*/
+        }
+        function plusMinus(id1, id2) {
+            if (id1.style.display == 'none') {
+                id1.style.display = 'inline';
+                id2.style.display = 'none';
+            }
+            else {
+                id1.style.display = 'none';
+                id2.style.display = 'inline';
+            }
+        }
+        function setCursor(id, tipCursor) {
+            id.style.cursor = tipCursor;
+        }
+    </script>
+    <script>
+        function pozitioneaza(id) {
+            var id_nou = id.substring(0, id.length - 4);
+           //document.getElementById('toTop').click();
+            $("#toTop").trigger("click");
+ 
+        }
+ 
+
+    </script>
+
+
+
+<style id="holderjs-style" type="text/css"></style></head>
+
+<body data-spy="scroll" data-target="#affix-nav" data-twttr-rendered="true" class="cbp-spmenu-push">
+    <a name="top"></a>
+
+
+    <div id="toTop" class="toggle-menu menu-left jPushMenuBtn"><a class="toggle-menu menu-left jPushMenuBtn"><img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/butonmeniu.png" alt="logo"></a> </div>
+    <div id="masterwrapper page-content">
+        <div id="header_wrapper" class="navbar navbar-default">
+            <!--navbar-fixed-top-->
+            <header>
+                <div id="header">
+                    <div class="header_top">
+                        <div class="banner">
+                            <div class="row">
+                                <img class="img-responsive center-block pozawidth" id="logoportal" src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/header_logo.png" style="width:85%;" alt="logo">
+                            </div>
+                        </div>
+                        <div class="row margin0" id="textlogo">
+                            <center>
+                                <h4 class="reducerespatiu logo">Portal Legislativ</h4>
+
+                            </center>
+                            <!-- <div style="float:right; position:relative; right:0; margin-top:-23px;">
+                                <a data-toggle="modal" data-target="#mesajBetaModal" style="cursor:pointer;">
+                                    <img width="50" src="/Content/Images/Site/versiunebeta.png" alt="Versiune Beta 2.0" />
+                                </a>
+                            </div>-->
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="menu_wrapper navbar navbar-inverse" role="navigation" id="slide-nav">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a id="btnNavbar" class="navbar-toggle">
+                                    <span class="sr-only">Meniu</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </a>
+
+                            </div>
+                            <div id="slidemenu" style="cursor:pointer;">
+                                <div id="menu" onclick="pozitioneaza('')">
+                                    <a style=" cursor:pointer;" onclick="pozitioneaza('')">
+                                        <h3>Meniu</h3>
+                                    </a>
+                                    <ul></ul>
+                                    <ul class="mainmenu">
+ 
+        <li>
+            <a href="https://legislatie.just.ro/Public/Acasa" class="main_link">
+
+                Acasă
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/NLEX" class="main_link">
+
+                Despre Proiect
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/Functionalitati" class="main_link">
+
+                Facilități Oferite 
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/LegaturiUtile" class="main_link">
+
+                Legături Utile
+
+            </a>
+        </li>
+<li>
+	<a href="https://www.just.ro/informatii-de-interes-public/protectia-datelor-cu-caracter-personal/" class="main_link" target="_blank" title="Protecţia datelor cu caracter personal">GDPR</a>
+</li>
+
+             
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><div class="inverse" id="navbar-height-col"></div>
+                    <div class="clear"></div>
+                </div>
+            </header>
+            <div class="meniunu">
+                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+                    <h3 style="padding-left:65px; margin-top:-5px;">Meniu</h3>
+                    <div id="meniutitlu"></div>
+                    <div id="meniupaginastart" style="display: none;">
+ 
+        <li>
+            <a href="https://legislatie.just.ro/Public/Acasa" class="main_link">
+
+                Acasă
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/NLEX" class="main_link">
+
+                Despre Proiect
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/Functionalitati" class="main_link">
+
+                Facilități Oferite 
+
+            </a>
+        </li>
+        <li>
+            <a href="https://legislatie.just.ro/Public/LegaturiUtile" class="main_link">
+
+                Legături Utile
+
+            </a>
+        </li>
+<li>
+	<a href="https://www.just.ro/informatii-de-interes-public/protectia-datelor-cu-caracter-personal/" class="main_link" target="_blank" title="Protecţia datelor cu caracter personal">GDPR</a>
+</li>
+
+              <br>
+                        Prin portalul N-Lex se acorda acces gratuit la 
+legislatiile nationale ale statelor membre, portalul fiind
+                        conceput pe baza unei tehnologii de comunicare 
+interne, ce permite accesarea directa a bazelor de date legislative 
+nationale,
+                        rezultatele cautarilor venind direct de la 
+sursa.
+                    </div>
+                    <script>
+                        if (window.location.href.indexOf('DetaliiDocument') != -1) {
+                            $('#meniupaginastart').hide();
+                        }
+                        else {
+                            $('#meniupaginastart').show();
+                        }
+                    </script>
+                </nav>
+            </div>
+        </div>
+ 
+        <div id="page_content" style="margin-top:-15px;">
+            <div id="page_wrapper">
+                <div class="articole_wrapper">
+                    
+
+
+<style>
+    #masterwrapper, #page_content, #page_wrapper {
+        background-color: white;
+        background: white;
+    }
+
+    #document_info {
+        font-size: 15px;
+    }
+
+    #fisaact {
+        font-size: 14px;
+    }
+
+    .seincarca {
+        position: fixed;
+        z-index: 1100;
+        left: 45%;
+        /*	margin-top: -500px;*/
+        top: 45%;
+        height: 100px;
+        background-color: #ffffff;
+        -moz-box-shadow: 5px 5px 5px #400;
+        -webkit-box-shadow: 5px 5px 5px #400;
+        box-shadow: 5px 5px 5px #400;
+        border: 1px solid #dadada;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -khtml-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .cbsloader {
+        background-image: url(~/../../../Content/Images/Site/bar-circle.gif);
+        background-repeat: no-repeat;
+    }
+
+    #modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('~/../../../Content/Images/Site/tint20.png') 0 0 repeat;
+        background: rgba(0,0,0,0.2);
+    }
+    #sidebar  {
+        &.affix;
+
+    {
+        top: 10px;
+        bottom: auto;
+    }
+
+    &.affix-top {
+        position: absolute;
+        top: 20px;
+    }
+
+    &.affix-bottom {
+        position: relative;
+        top: auto;
+        bottom: auto;
+    }
+
+    }
+
+</style>
+ <script>
+
+     function imgSIZE() {
+         $("#infoactinfoact img").one("load", function() {
+             try {
+                 var theImage = new Image();
+                 theImage.src = $(this).attr("src");
+                 var imgW = theImage.width;
+                 var imgH = theImage.height;
+                 // console.log($(this).attr("src") + "   - " + imgW + ", " + imgH);
+
+                 
+                 $(this).css("max-width", "100%");
+                 $(this).css("width", imgW+"px");
+                 
+             }
+             catch(e) {
+                 // console.log("horror> "+e);
+             }
+         });
+     }
+
+ </script>
+
+<div class="container bs-docs-container" data-target="#sidebar">
+
+    <div class="row" id="textdocumentleg">
+        <div class="col-md-3" id="meniu">
+            <div class="bs-docs-sidebar meniuaffix affix-top" id="sidebar" style="height: 480px;">
+                <div class="articole_wrapper">
+                    <div class="h1_articole">
+                        <h1>Cuprins</h1>
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+                <div id="loaderDiv" class="seincarca" style="display: none; text-align: center; width: auto !important; height: auto !important; padding: 40px;">
+                    <div id="modal"></div>
+                    <progress max="100">
+                        <div class="cbsloader">
+                            <div style="color:#333; margin-top:-40px; margin-left:130px;">
+                            </div>
+                            <br>
+                            <div style="color:#333; margin-left:49px; margin-top:-5px;">
+                                <b>Se încarcă, vă rugăm asteptati.</b><br><br>
+                            </div>
+                        </div>
+                    </progress>
+                </div>
+                <div class="details_navigation">
+
+                    <input type="hidden" id="id_act" name="id_act" value="203218">
+                    <div class="nav_header expanded" data-target="FormeAct" style="margin-left:-10px; font-weight: bold !important;">
+                    </div>
+                    <div class="nav_content expanded" data-target="FormeAct" style="margin-left: -10px;">
+                            <div class="forme_act">
+                                <!--
+                                -->
+                            </div>
+                            <div class="forme_act">
+                                <!--
+                                -->
+                            </div>
+                            <div class="forme_act">
+                                <!--
+                                -->
+                            </div>
+                    </div>
+
+                    <div id="label_fisaact" class="nav_header" onclick="toggle_fisaact()" style="margin-left:-10px !important; margin-top:10px;">
+                        <span id="label_fisaact_plus_minus" style="cursor:pointer">+</span>
+                        <span style="cursor: pointer; font-weight: bold; color: #3c3636; ">Fișă act</span>
+                    </div>
+
+                    <div id="content_fisaact" class="nav_content" style="display: none;">
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="1" id="Actiunisuferite" name="Actiunisuferite" onchange="ArataFisaAct(this);" type="checkbox" value="true"><input name="Actiunisuferite" type="hidden" value="false">
+                                <label for="Actiunisuferite">Actiuni suferite</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="2" id="ActiuniInduse" name="ActiuniInduse" onchange="ArataFisaAct(this);" type="checkbox" value="true"><input name="ActiuniInduse" type="hidden" value="false">
+                                <label for="ActiuniInduse">Actiuni Induse</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="3" id="Referape" name="Referape" onchange="ArataFisaAct(this);" type="checkbox" value="true"><input name="Referape" type="hidden" value="false">
+                                <label for="Referape">Refera pe</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="4" id="Referitde" name="Referitde" onchange="ArataFisaAct(this);" type="checkbox" value="true"><input name="Referitde" type="hidden" value="false">
+                                <label for="Referitde">Referit de</label>
+                            </div>
+                    </div>
+
+                </div>
+                <p style="padding-top: 10px; font-variant: small-caps; border-bottom: 3px solid #BB3A3A; color: #112F5D; font-size: 18px; font-family: EB Garamond !important; ">Cuprinsul Actului</p>
+                <ul class="nav bs-docs-sidenav" style=" margin-top:5px;">
+
+                    pentru modificarea și completarea Legii contenciosului administrativ nr. 554/2004  și a altor acte normative<li><a href="#id_artA31_ttl" onclick="
+        pozitioneaza('id_artA31_ttl')
+      ">Articolul I</a></li><li><a href="#id_artA118_ttl" onclick="
+        pozitioneaza('id_artA118_ttl')
+      ">Articolul II</a></li><li><a href="#id_artA128_ttl" onclick="
+        pozitioneaza('id_artA128_ttl')
+      ">Articolul III</a></li><li><a href="#id_artA132_ttl" onclick="
+        pozitioneaza('id_artA132_ttl')
+      ">Articolul IV</a></li><li><a href="#id_artA137_ttl" onclick="
+        pozitioneaza('id_artA137_ttl')
+      ">Articolul V</a></li><li><a href="#id_artA157_ttl" onclick="
+        pozitioneaza('id_artA157_ttl')
+      ">Articolul VI</a></li>p. PREȘEDINTELE CAMEREI DEPUTAȚILOR, FLORIN IORDACHE  p. PREȘEDINTELE SENATULUI,ADRIAN ȚUȚUIANU  
+
+                </ul>
+                <a class="back-to-top" onclick="pozitioneaza('')" href="#top">
+                    Reveniti in topul paginii
+                </a>
+                <div style="text-align:center;">
+                    
+
+                    <a target="_blank" class="btn btn-primary btn-xs" href="https://legislatie.just.ro/Public/FormaPrintabila/00000G2MIAP2YS3THQ3099MFHLD0UDK5">
+                        <span class="glyphicon glyphicon-print"></span> Forma printabilă
+                    </a>
+                </div>
+                <div class="articole_wrapper">
+                    <div class="h1_articole">
+
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+
+
+        <div class="col-md-8" role="main" id="infoactinfoact">
+            <div class="bs-docs-section">
+                <div class="main_details">
+                    
+                    <div class="document_info" id="document_info">
+                        <div id="forme_act_container" data-id="FormeAct" data-state="loaded">
+                                    <div id="div_Formaconsolidata" class="content_forma_act" data-state="loaded">
+                                        
+                                        <span class="S_DEN">LEGE nr. 212 din 25 iulie 2018</span><span class="S_HDR">pentru modificarea și completarea <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">Legii contenciosului administrativ nr. 554/2004</a>  și a altor acte normative</span><table cellspacing="0px" cellpadding="0px" class="S_EMT"><tbody><tr valign="baseline"><td width="75px"><span class="S_EMT_TTL">EMITENT</span></td><td><span class="S_EMT_BDY"><li>PARLAMENTUL ROMÂNIEI</li></span></td></tr></tbody></table><span class="S_PUB"><span class="S_PUB_TTL">Publicat în&nbsp;
+			</span><span class="S_PUB_BDY">MONITORUL OFICIAL nr. 658 din 30 iulie 2018</span></span><span id="fisaact"><span style="display:none;height:180px;overflow:auto;border:1px solid;" id="actiuni_suferite"></span><br><span style="display:none;border:1px solid;height:180px;overflow:auto" id="actiuni_induse"></span><br><span style="display:none;height:180px;overflow:auto;border:1px solid;" id="refera_pe"></span><br><span style="display:none;height:180px;overflow:auto;border:1px solid;" id="referit_de"></span><br><!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA30">Parlamentul României adoptă prezenta lege.<!----></span><span class="S_ART" style="display: block; color:black;" id="id_artA31" name="id_artA31"><span class="TAG_COLLAPSED" id="id_cllpsdA31" onmouseover="marcheaza(id_cllpsdA31,id_artA31)" onmouseout="demarcheaza(id_cllpsdA31,id_artA31)" onmousedown="plusMinus(id_artA31_bdy,id_cllpsdA31)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA31_ttl" onmouseover="marcheaza(id_artA31_ttl,id_artA31)" onmouseout="demarcheaza(id_artA31_ttl,id_artA31)" onmousedown="plusMinus(id_artA31_bdy,id_cllpsdA31)">Articolul I</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA31_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA32"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">Legea contenciosului administrativ nr. 554/2004,</a>
+ publicată în Monitorul Oficial al României, Partea I, nr. 1.154 din 7 
+decembrie 2004, cu modificările și completările ulterioare, se modifică 
+și se completează după cum urmează:<span class="S_PCT" style="display: block; color:black;" id="id_pctA33"><span class="S_PCT_TTL" id="id_pctA33_ttl" onmouseover="marcheaza(id_pctA33_ttl,id_pctA33)" onmouseout="demarcheaza(id_pctA33_ttl,id_pctA33)" onmousedown="plusMinus(id_pctA33_short,id_pctA33_bdy)">1.<!----></span> <span class="S_PCT_BDY" id="id_pctA33_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 2 alineatul (1), litera c)</a> se modifică și va avea următorul cuprins: <span class="S_CIT"><span class="S_LIT" style="display: block; color:black;" id="id_litA35"><span class="S_LIT_TTL" id="id_litA35_ttl" onmouseover="marcheaza(id_litA35_ttl,id_litA35)" onmouseout="demarcheaza(id_litA35_ttl,id_litA35)" onmousedown="plusMinus(id_litA35_short,id_litA35_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA35_bdy">act
+ administrativ - actul unilateral cu caracter individual sau normativ 
+emis de o autoritate publică, în regim de putere publică, în vederea 
+organizării executării legii sau a executării în concret a legii, care 
+dă naștere, modifică sau stinge raporturi juridice;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA35_short" onmouseover="marcheaza(id_litA35_short,id_litA35)" onmouseout="demarcheaza(id_litA35_short,id_litA35)" onmousedown="plusMinus(id_litA35_short,id_litA35_bdy)">&nbsp;...&nbsp;</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA33_short" onmouseover="marcheaza(id_pctA33_short,id_pctA33)" onmouseout="demarcheaza(id_pctA33_short,id_pctA33)" onmousedown="plusMinus(id_pctA33_short,id_pctA33_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA36"><span class="S_PCT_TTL" id="id_pctA36_ttl" onmouseover="marcheaza(id_pctA36_ttl,id_pctA36)" onmouseout="demarcheaza(id_pctA36_ttl,id_pctA36)" onmousedown="plusMinus(id_pctA36_short,id_pctA36_bdy)">2.<!----></span> <span class="S_PCT_BDY" id="id_pctA36_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 2 alineatul (1), după litera c)</a> se introduce o nouă literă, litera c^1), cu următorul cuprins: <span class="S_CIT"><span class="S_LIT" style="display: block; color:black;" id="id_litA38"><span class="S_LIT_TTL" id="id_litA38_ttl" onmouseover="marcheaza(id_litA38_ttl,id_litA38)" onmouseout="demarcheaza(id_litA38_ttl,id_litA38)" onmousedown="plusMinus(id_litA38_short,id_litA38_bdy)">c^1)<!----></span> <span class="S_LIT_BDY" id="id_litA38_bdy">sunt
+ asimilate actelor administrative, în sensul prezentei legi, și 
+contractele încheiate de autoritățile publice care au ca obiect punerea 
+în valoare a bunurilor proprietate publică, executarea lucrărilor de 
+interes public, prestarea serviciilor publice, achizițiile publice; prin
+ legi speciale pot fi prevăzute și alte categorii de contracte 
+administrative;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA38_short" onmouseover="marcheaza(id_litA38_short,id_litA38)" onmouseout="demarcheaza(id_litA38_short,id_litA38)" onmousedown="plusMinus(id_litA38_short,id_litA38_bdy)">&nbsp;...&nbsp;</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA36_short" onmouseover="marcheaza(id_pctA36_short,id_pctA36)" onmouseout="demarcheaza(id_pctA36_short,id_pctA36)" onmousedown="plusMinus(id_pctA36_short,id_pctA36_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA39"><span class="S_PCT_TTL" id="id_pctA39_ttl" onmouseover="marcheaza(id_pctA39_ttl,id_pctA39)" onmouseout="demarcheaza(id_pctA39_ttl,id_pctA39)" onmousedown="plusMinus(id_pctA39_short,id_pctA39_bdy)">3.<!----></span> <span class="S_PCT_BDY" id="id_pctA39_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 5, alineatul (3)</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA41"><span class="S_ALN_TTL" id="id_litA41_ttl" onmouseover="marcheaza(id_litA41_ttl,id_litA41)" onmouseout="demarcheaza(id_litA41_ttl,id_litA41)" onmousedown="plusMinus(id_litA41_short,id_litA41_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA41_bdy">
+ În litigiile referitoare la actele administrative emise pentru 
+aplicarea regimului stării de război, al stării de asediu sau al celei 
+de urgență, cele care privesc apărarea și securitatea națională ori cele
+ emise pentru restabilirea ordinii publice, precum și pentru înlăturarea
+ consecințelor calamităților naturale, epidemiilor și epizootiilor nu 
+sunt aplicabile prevederile art. 14.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA39_short" onmouseover="marcheaza(id_pctA39_short,id_pctA39)" onmouseout="demarcheaza(id_pctA39_short,id_pctA39)" onmousedown="plusMinus(id_pctA39_short,id_pctA39_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA42"><span class="S_PCT_TTL" id="id_pctA42_ttl" onmouseover="marcheaza(id_pctA42_ttl,id_pctA42)" onmouseout="demarcheaza(id_pctA42_ttl,id_pctA42)" onmousedown="plusMinus(id_pctA42_short,id_pctA42_bdy)">4.<!----></span> <span class="S_PCT_BDY" id="id_pctA42_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 5, alineatul (4)</a> se abrogă.</span><span style="display:none" class="S_PCT_SHORT" id="id_pctA42_short" onmouseover="marcheaza(id_pctA42_short,id_pctA42)" onmouseout="demarcheaza(id_pctA42_short,id_pctA42)" onmousedown="plusMinus(id_pctA42_short,id_pctA42_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA43"><span class="S_PCT_TTL" id="id_pctA43_ttl" onmouseover="marcheaza(id_pctA43_ttl,id_pctA43)" onmouseout="demarcheaza(id_pctA43_ttl,id_pctA43)" onmousedown="plusMinus(id_pctA43_short,id_pctA43_bdy)">5.<!----></span> <span class="S_PCT_BDY" id="id_pctA43_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 7, alineatele (1)</a>, <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(3)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(5)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA45" name="id_artA45"><span class="TAG_COLLAPSED" id="id_cllpsdA45" onmouseover="marcheaza(id_cllpsdA45,id_artA45)" onmouseout="demarcheaza(id_cllpsdA45,id_artA45)" onmousedown="plusMinus(id_artA45_bdy,id_cllpsdA45)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA45_ttl" onmouseover="marcheaza(id_artA45_ttl,id_artA45)" onmouseout="demarcheaza(id_artA45_ttl,id_artA45)" onmousedown="plusMinus(id_artA45_bdy,id_cllpsdA45)">Articolul 7</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA45_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA46"><span class="S_ALN_TTL" id="id_litA46_ttl" onmouseover="marcheaza(id_litA46_ttl,id_litA46)" onmouseout="demarcheaza(id_litA46_ttl,id_litA46)" onmousedown="plusMinus(id_litA46_short,id_litA46_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA46_bdy">
+ Înainte de a se adresa instanței de contencios administrativ 
+competente, persoana care se consideră vătămată într-un drept al său ori
+ într-un interes legitim printr-un act administrativ individual care i 
+se adresează trebuie să solicite autorității publice emitente sau 
+autorității ierarhic superioare, dacă aceasta există, în termen de 30 de
+ zile de la data comunicării actului, revocarea, în tot sau în parte, a 
+acestuia. Pentru motive temeinice, persoana vătămată, destinatar al 
+actului, poate introduce plângerea prealabilă, în cazul actelor 
+administrative unilaterale, și peste termenul prevăzut la alin. (1), dar
+ nu mai târziu de 6 luni de la data emiterii actului.</span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA47">(...)<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA48"><span class="S_ALN_TTL" id="id_litA48_ttl" onmouseover="marcheaza(id_litA48_ttl,id_litA48)" onmouseout="demarcheaza(id_litA48_ttl,id_litA48)" onmousedown="plusMinus(id_litA48_short,id_litA48_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA48_bdy">
+ Este îndreptățită să introducă plângere prealabilă și persoana vătămată
+ într-un drept al său sau într-un interes legitim, printr-un act 
+administrativ cu caracter individual, adresat altui subiect de drept. 
+Plângerea prealabilă, în cazul actelor administrative unilaterale, se va
+ introduce în termen de 30 de zile din momentul în care persoana 
+vătămată a luat cunoștință, pe orice cale, de conținutul actului. Pentru
+ motive temeinice, plângerea prealabilă se poate formula și peste 
+termenul de 30 de zile, dar nu mai târziu de 6 luni de la data la care a
+ luat cunoștință, pe orice cale, de conținutul acestuia. Termenul de 6 
+luni prevăzut în prezentul alineat, precum și cel prevăzut la alin. (1) 
+sunt termene de prescripție.</span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA49">(...)<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA50"><span class="S_ALN_TTL" id="id_litA50_ttl" onmouseover="marcheaza(id_litA50_ttl,id_litA50)" onmouseout="demarcheaza(id_litA50_ttl,id_litA50)" onmousedown="plusMinus(id_litA50_short,id_litA50_bdy)">(5)<!----></span> <span class="S_ALN_BDY" id="id_litA50_bdy">
+ În cazul acțiunilor introduse de prefect, Avocatul Poporului, 
+Ministerul Public, Agenția Națională a Funcționarilor Publici, al celor 
+care privesc cererile persoanelor vătămate prin ordonanțe sau dispoziții
+ din ordonanțe sau al acțiunilor îndreptate împotriva actelor 
+administrative care nu mai pot fi revocate întrucât au intrat în 
+circuitul civil și au produs efecte juridice, precum și în cazurile 
+prevăzute la art. 2 alin. (2) și la art. 4 nu este obligatorie plângerea
+ prealabilă.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA43_short" onmouseover="marcheaza(id_pctA43_short,id_pctA43)" onmouseout="demarcheaza(id_pctA43_short,id_pctA43)" onmousedown="plusMinus(id_pctA43_short,id_pctA43_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA51"><span class="S_PCT_TTL" id="id_pctA51_ttl" onmouseover="marcheaza(id_pctA51_ttl,id_pctA51)" onmouseout="demarcheaza(id_pctA51_ttl,id_pctA51)" onmousedown="plusMinus(id_pctA51_short,id_pctA51_bdy)">6.<!----></span> <span class="S_PCT_BDY" id="id_pctA51_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 7, partea introductivă</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">litera b) ale alineatului (6)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA53"><span class="S_ALN_TTL" id="id_litA53_ttl" onmouseover="marcheaza(id_litA53_ttl,id_litA53)" onmouseout="demarcheaza(id_litA53_ttl,id_litA53)" onmousedown="plusMinus(id_litA53_short,id_litA53_bdy)">(6)<!----></span> <span class="S_ALN_BDY" id="id_litA53_bdy">
+ Plângerea prealabilă în cazul acțiunilor care au ca obiect contracte 
+administrative trebuie făcută în termen de 6 luni, care va începe să 
+curgă:</span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA54">(...)<!----></span><span class="S_LIT" style="display: block; color:black;" id="id_litA55"><span class="S_LIT_TTL" id="id_litA55_ttl" onmouseover="marcheaza(id_litA55_ttl,id_litA55)" onmouseout="demarcheaza(id_litA55_ttl,id_litA55)" onmousedown="plusMinus(id_litA55_short,id_litA55_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA55_bdy">de la data când reclamantul a cunoscut cauza anulării, dar nu mai târziu de un an de la încheierea contractului.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA55_short" onmouseover="marcheaza(id_litA55_short,id_litA55)" onmouseout="demarcheaza(id_litA55_short,id_litA55)" onmousedown="plusMinus(id_litA55_short,id_litA55_bdy)">&nbsp;...&nbsp;</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA51_short" onmouseover="marcheaza(id_pctA51_short,id_pctA51)" onmouseout="demarcheaza(id_pctA51_short,id_pctA51)" onmousedown="plusMinus(id_pctA51_short,id_pctA51_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA56"><span class="S_PCT_TTL" id="id_pctA56_ttl" onmouseover="marcheaza(id_pctA56_ttl,id_pctA56)" onmouseout="demarcheaza(id_pctA56_ttl,id_pctA56)" onmousedown="plusMinus(id_pctA56_short,id_pctA56_bdy)">7.<!----></span> <span class="S_PCT_BDY" id="id_pctA56_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 7 alineatul (6), literele c)</a>-<a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">e)</a> se abrogă.</span><span style="display:none" class="S_PCT_SHORT" id="id_pctA56_short" onmouseover="marcheaza(id_pctA56_short,id_pctA56)" onmouseout="demarcheaza(id_pctA56_short,id_pctA56)" onmousedown="plusMinus(id_pctA56_short,id_pctA56_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA57"><span class="S_PCT_TTL" id="id_pctA57_ttl" onmouseover="marcheaza(id_pctA57_ttl,id_pctA57)" onmouseout="demarcheaza(id_pctA57_ttl,id_pctA57)" onmousedown="plusMinus(id_pctA57_short,id_pctA57_bdy)">8.<!----></span> <span class="S_PCT_BDY" id="id_pctA57_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 7, alineatul (7)</a> se abrogă.</span><span style="display:none" class="S_PCT_SHORT" id="id_pctA57_short" onmouseover="marcheaza(id_pctA57_short,id_pctA57)" onmouseout="demarcheaza(id_pctA57_short,id_pctA57)" onmousedown="plusMinus(id_pctA57_short,id_pctA57_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA58"><span class="S_PCT_TTL" id="id_pctA58_ttl" onmouseover="marcheaza(id_pctA58_ttl,id_pctA58)" onmouseout="demarcheaza(id_pctA58_ttl,id_pctA58)" onmousedown="plusMinus(id_pctA58_short,id_pctA58_bdy)">9.<!----></span> <span class="S_PCT_BDY" id="id_pctA58_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 8, alineatele (1)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(2)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA60" name="id_artA60"><span class="TAG_COLLAPSED" id="id_cllpsdA60" onmouseover="marcheaza(id_cllpsdA60,id_artA60)" onmouseout="demarcheaza(id_cllpsdA60,id_artA60)" onmousedown="plusMinus(id_artA60_bdy,id_cllpsdA60)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA60_ttl" onmouseover="marcheaza(id_artA60_ttl,id_artA60)" onmouseout="demarcheaza(id_artA60_ttl,id_artA60)" onmousedown="plusMinus(id_artA60_bdy,id_cllpsdA60)">Articolul 8</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA60_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA61"><span class="S_ALN_TTL" id="id_litA61_ttl" onmouseover="marcheaza(id_litA61_ttl,id_litA61)" onmouseout="demarcheaza(id_litA61_ttl,id_litA61)" onmousedown="plusMinus(id_litA61_short,id_litA61_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA61_bdy">
+ Persoana vătămată într-un drept recunoscut de lege sau într-un interes 
+legitim printr-un act administrativ unilateral, nemulțumită de răspunsul
+ primit la plângerea prealabilă sau care nu a primit niciun răspuns în 
+termenul prevăzut la art. 2 alin. (1) lit. h), poate sesiza instanța de 
+contencios administrativ competentă, pentru a solicita anularea în tot 
+sau în parte a actului, repararea pagubei cauzate și, eventual, 
+reparații pentru daune morale. De asemenea se poate adresa instanței de 
+contencios administrativ și cel care se consideră vătămat într-un drept 
+sau interes legitim al său prin nesoluționarea în termen sau prin 
+refuzul nejustificat de soluționare a unei cereri, precum și prin 
+refuzul de efectuare a unei anumite operațiuni administrative necesare 
+pentru exercitarea sau protejarea dreptului sau interesului legitim. 
+Motivele invocate în cererea de anulare a actului nu sunt limitate la 
+cele invocate prin plângerea prealabilă.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA63"><span class="S_ALN_TTL" id="id_litA63_ttl" onmouseover="marcheaza(id_litA63_ttl,id_litA63)" onmouseout="demarcheaza(id_litA63_ttl,id_litA63)" onmousedown="plusMinus(id_litA63_short,id_litA63_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA63_bdy">
+ Instanța de contencios administrativ este competentă să soluționeze 
+litigiile care apar în fazele premergătoare încheierii unui contract 
+administrativ, precum și orice litigii legate de încheierea contractului
+ administrativ, inclusiv litigiile având ca obiect anularea unui 
+contract administrativ. Litigiile care decurg din executarea 
+contractelor administrative sunt în competența de soluționare a 
+instanțelor civile de drept comun.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA58_short" onmouseover="marcheaza(id_pctA58_short,id_pctA58)" onmouseout="demarcheaza(id_pctA58_short,id_pctA58)" onmousedown="plusMinus(id_pctA58_short,id_pctA58_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA64"><span class="S_PCT_TTL" id="id_pctA64_ttl" onmouseover="marcheaza(id_pctA64_ttl,id_pctA64)" onmouseout="demarcheaza(id_pctA64_ttl,id_pctA64)" onmousedown="plusMinus(id_pctA64_short,id_pctA64_bdy)">10.<!----></span> <span class="S_PCT_BDY" id="id_pctA64_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 10, alineatele (1)</a>, <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(1^1)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(3)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA66" name="id_artA66"><span class="TAG_COLLAPSED" id="id_cllpsdA66" onmouseover="marcheaza(id_cllpsdA66,id_artA66)" onmouseout="demarcheaza(id_cllpsdA66,id_artA66)" onmousedown="plusMinus(id_artA66_bdy,id_cllpsdA66)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA66_ttl" onmouseover="marcheaza(id_artA66_ttl,id_artA66)" onmouseout="demarcheaza(id_artA66_ttl,id_artA66)" onmousedown="plusMinus(id_artA66_bdy,id_cllpsdA66)">Articolul 10</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA66_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA67"><span class="S_ALN_TTL" id="id_litA67_ttl" onmouseover="marcheaza(id_litA67_ttl,id_litA67)" onmouseout="demarcheaza(id_litA67_ttl,id_litA67)" onmousedown="plusMinus(id_litA67_short,id_litA67_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA67_bdy">
+ Litigiile privind actele administrative emise sau încheiate de 
+autoritățile publice locale și județene, precum și cele care privesc 
+taxe și impozite, contribuții, datorii vamale, precum și accesorii ale 
+acestora de până la 3.000.000 de lei se soluționează în fond de 
+tribunalele administrativ-fiscale, iar cele privind actele 
+administrative emise sau încheiate de autoritățile publice centrale, 
+precum și cele care privesc taxe și impozite, contribuții, datorii 
+vamale, precum și accesorii ale acestora mai mari de 3.000.000 de lei se
+ soluționează în fond de secțiile de contencios administrativ și fiscal 
+ale curților de apel, dacă prin lege organică specială nu se prevede 
+altfel.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA68"><span class="S_ALN_TTL" id="id_litA68_ttl" onmouseover="marcheaza(id_litA68_ttl,id_litA68)" onmouseout="demarcheaza(id_litA68_ttl,id_litA68)" onmousedown="plusMinus(id_litA68_short,id_litA68_bdy)">(1^1)<!----></span> <span class="S_ALN_BDY" id="id_litA68_bdy">Cererile
+ privind actele administrative care au ca obiect sume reprezentând 
+finanțarea nerambursabilă din partea Uniunii Europene se soluționează 
+potrivit criteriului valoric, iar cererile care au ca obiect acte 
+administrative neevaluabile se soluționează potrivit rangului 
+autorității, conform prevederilor alin. (1).</span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA69">(...)<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA70"><span class="S_ALN_TTL" id="id_litA70_ttl" onmouseover="marcheaza(id_litA70_ttl,id_litA70)" onmouseout="demarcheaza(id_litA70_ttl,id_litA70)" onmousedown="plusMinus(id_litA70_short,id_litA70_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA70_bdy">
+ Reclamantul persoană fizică sau juridică de drept privat se adresează 
+exclusiv instanței de la domiciliul sau sediul său. Reclamantul 
+autoritate publică, instituție publică sau asimilată acestora se 
+adresează exclusiv instanței de la domiciliul sau sediul pârâtului.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA64_short" onmouseover="marcheaza(id_pctA64_short,id_pctA64)" onmouseout="demarcheaza(id_pctA64_short,id_pctA64)" onmousedown="plusMinus(id_pctA64_short,id_pctA64_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA71"><span class="S_PCT_TTL" id="id_pctA71_ttl" onmouseover="marcheaza(id_pctA71_ttl,id_pctA71)" onmouseout="demarcheaza(id_pctA71_ttl,id_pctA71)" onmousedown="plusMinus(id_pctA71_short,id_pctA71_bdy)">11.<!----></span> <span class="S_PCT_BDY" id="id_pctA71_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 10, după alineatul (3)</a> se introduce un nou alineat, alineatul (4), cu următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA73"><span class="S_ALN_TTL" id="id_litA73_ttl" onmouseover="marcheaza(id_litA73_ttl,id_litA73)" onmouseout="demarcheaza(id_litA73_ttl,id_litA73)" onmousedown="plusMinus(id_litA73_short,id_litA73_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA73_bdy">
+ Competența teritorială de soluționare a cauzei se va respecta și atunci
+ când acțiunea se introduce în numele reclamantului de orice persoană de
+ drept public sau privat, indiferent de calitatea acestuia din proces.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA71_short" onmouseover="marcheaza(id_pctA71_short,id_pctA71)" onmouseout="demarcheaza(id_pctA71_short,id_pctA71)" onmousedown="plusMinus(id_pctA71_short,id_pctA71_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA74"><span class="S_PCT_TTL" id="id_pctA74_ttl" onmouseover="marcheaza(id_pctA74_ttl,id_pctA74)" onmouseout="demarcheaza(id_pctA74_ttl,id_pctA74)" onmousedown="plusMinus(id_pctA74_short,id_pctA74_bdy)">12.<!----></span> <span class="S_PCT_BDY" id="id_pctA74_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 11 alineatul (1), litera e)</a> se abrogă.</span><span style="display:none" class="S_PCT_SHORT" id="id_pctA74_short" onmouseover="marcheaza(id_pctA74_short,id_pctA74)" onmouseout="demarcheaza(id_pctA74_short,id_pctA74)" onmousedown="plusMinus(id_pctA74_short,id_pctA74_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA75"><span class="S_PCT_TTL" id="id_pctA75_ttl" onmouseover="marcheaza(id_pctA75_ttl,id_pctA75)" onmouseout="demarcheaza(id_pctA75_ttl,id_pctA75)" onmousedown="plusMinus(id_pctA75_short,id_pctA75_bdy)">13.<!----></span> <span class="S_PCT_BDY" id="id_pctA75_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 13, alineatul (1)</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA77" name="id_artA77"><span class="TAG_COLLAPSED" id="id_cllpsdA77" onmouseover="marcheaza(id_cllpsdA77,id_artA77)" onmouseout="demarcheaza(id_cllpsdA77,id_artA77)" onmousedown="plusMinus(id_artA77_bdy,id_cllpsdA77)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA77_ttl" onmouseover="marcheaza(id_artA77_ttl,id_artA77)" onmouseout="demarcheaza(id_artA77_ttl,id_artA77)" onmousedown="plusMinus(id_artA77_bdy,id_cllpsdA77)">Articolul 13</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA77_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA78"><span class="S_ALN_TTL" id="id_litA78_ttl" onmouseover="marcheaza(id_litA78_ttl,id_litA78)" onmouseout="demarcheaza(id_litA78_ttl,id_litA78)" onmousedown="plusMinus(id_litA78_short,id_litA78_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA78_bdy">
+ La primirea cererii, instanța dispune citarea părților. Autoritatea 
+publică emitentă va comunica împreună cu întâmpinarea actul atacat 
+împreună cu întreaga documentație care a stat la baza emiterii lui, 
+precum și orice alte lucrări necesare pentru soluționarea cauzei. 
+Instanța poate solicita emitentului orice alte lucrări necesare pentru 
+soluționarea cauzei.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA75_short" onmouseover="marcheaza(id_pctA75_short,id_pctA75)" onmouseout="demarcheaza(id_pctA75_short,id_pctA75)" onmousedown="plusMinus(id_pctA75_short,id_pctA75_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA79"><span class="S_PCT_TTL" id="id_pctA79_ttl" onmouseover="marcheaza(id_pctA79_ttl,id_pctA79)" onmouseout="demarcheaza(id_pctA79_ttl,id_pctA79)" onmousedown="plusMinus(id_pctA79_short,id_pctA79_bdy)">14.<!----></span> <span class="S_PCT_BDY" id="id_pctA79_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 14, alineatul (2)</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA81"><span class="S_ALN_TTL" id="id_litA81_ttl" onmouseover="marcheaza(id_litA81_ttl,id_litA81)" onmouseout="demarcheaza(id_litA81_ttl,id_litA81)" onmousedown="plusMinus(id_litA81_short,id_litA81_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA81_bdy"> Instanța soluționează cererea de suspendare, de urgență și cu precădere, cu citarea părților. Procedura prevăzută la <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">art. 200</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">201 din Codul de procedură civilă</a>
+ nu este aplicabilă. Întâmpinarea este obligatorie și se depune la 
+dosarul cauzei cu cel puțin 3 zile înainte de termenul de judecată. 
+Reclamantul va lua cunoștință de conținutul întâmpinării de la dosarul 
+cauzei. Instanța poate acorda un nou termen de judecată în cazul în care
+ reclamantul solicită amânarea pentru a lua cunoștință de conținutul 
+întâmpinării.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA79_short" onmouseover="marcheaza(id_pctA79_short,id_pctA79)" onmouseout="demarcheaza(id_pctA79_short,id_pctA79)" onmousedown="plusMinus(id_pctA79_short,id_pctA79_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA82"><span class="S_PCT_TTL" id="id_pctA82_ttl" onmouseover="marcheaza(id_pctA82_ttl,id_pctA82)" onmouseout="demarcheaza(id_pctA82_ttl,id_pctA82)" onmousedown="plusMinus(id_pctA82_short,id_pctA82_bdy)">15.<!----></span> <span class="S_PCT_BDY" id="id_pctA82_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 15, alineatele (1)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(4)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA84" name="id_artA84"><span class="TAG_COLLAPSED" id="id_cllpsdA84" onmouseover="marcheaza(id_cllpsdA84,id_artA84)" onmouseout="demarcheaza(id_cllpsdA84,id_artA84)" onmousedown="plusMinus(id_artA84_bdy,id_cllpsdA84)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA84_ttl" onmouseover="marcheaza(id_artA84_ttl,id_artA84)" onmouseout="demarcheaza(id_artA84_ttl,id_artA84)" onmousedown="plusMinus(id_artA84_bdy,id_cllpsdA84)">Articolul 15</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA84_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA85"><span class="S_ALN_TTL" id="id_litA85_ttl" onmouseover="marcheaza(id_litA85_ttl,id_litA85)" onmouseout="demarcheaza(id_litA85_ttl,id_litA85)" onmousedown="plusMinus(id_litA85_short,id_litA85_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA85_bdy">
+ Suspendarea executării actului administrativ unilateral poate fi 
+solicitată de reclamant, pentru motivele prevăzute la art. 14, și prin 
+cererea adresată instanței competente pentru anularea, în tot sau în 
+parte, a actului atacat. În acest caz, instanța poate dispune 
+suspendarea actului administrativ atacat, până la soluționarea 
+definitivă a cauzei. Cererea de suspendare se poate formula odată cu 
+acțiunea principală sau printr-o acțiune separată, până la soluționarea 
+acțiunii în fond.</span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA86">(...)<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA87"><span class="S_ALN_TTL" id="id_litA87_ttl" onmouseover="marcheaza(id_litA87_ttl,id_litA87)" onmouseout="demarcheaza(id_litA87_ttl,id_litA87)" onmousedown="plusMinus(id_litA87_short,id_litA87_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA87_bdy">
+ În ipoteza admiterii acțiunii de fond, măsura suspendării, dispusă în 
+condițiile art. 14, se prelungește de drept până la soluționarea 
+definitivă a cauzei, chiar dacă reclamantul nu a solicitat suspendarea 
+executării actului administrativ în temeiul alin. (1).</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA82_short" onmouseover="marcheaza(id_pctA82_short,id_pctA82)" onmouseout="demarcheaza(id_pctA82_short,id_pctA82)" onmousedown="plusMinus(id_pctA82_short,id_pctA82_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA88"><span class="S_PCT_TTL" id="id_pctA88_ttl" onmouseover="marcheaza(id_pctA88_ttl,id_pctA88)" onmouseout="demarcheaza(id_pctA88_ttl,id_pctA88)" onmousedown="plusMinus(id_pctA88_short,id_pctA88_bdy)">16.<!----></span> <span class="S_PCT_BDY" id="id_pctA88_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 16, alineatul (1)</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA90" name="id_artA90"><span class="TAG_COLLAPSED" id="id_cllpsdA90" onmouseover="marcheaza(id_cllpsdA90,id_artA90)" onmouseout="demarcheaza(id_cllpsdA90,id_artA90)" onmousedown="plusMinus(id_artA90_bdy,id_cllpsdA90)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA90_ttl" onmouseover="marcheaza(id_artA90_ttl,id_artA90)" onmouseout="demarcheaza(id_artA90_ttl,id_artA90)" onmousedown="plusMinus(id_artA90_bdy,id_cllpsdA90)">Articolul 16</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA90_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA91"><span class="S_ALN_TTL" id="id_litA91_ttl" onmouseover="marcheaza(id_litA91_ttl,id_litA91)" onmouseout="demarcheaza(id_litA91_ttl,id_litA91)" onmousedown="plusMinus(id_litA91_short,id_litA91_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA91_bdy">
+ Cererile în justiție prevăzute de prezenta lege pot fi formulate și 
+personal împotriva persoanei care a contribuit la elaborarea, emiterea, 
+adoptarea sau încheierea actului ori, după caz, care se face vinovată de
+ refuzul de a rezolva cererea referitoare la un drept subiectiv sau la 
+un interes legitim, dacă se solicită plata unor despăgubiri pentru 
+prejudiciul cauzat ori pentru întârziere. În cazul în care acțiunea se 
+admite, persoana respectivă poate fi obligată la plata despăgubirilor, 
+solidar cu autoritatea publică pârâtă.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA88_short" onmouseover="marcheaza(id_pctA88_short,id_pctA88)" onmouseout="demarcheaza(id_pctA88_short,id_pctA88)" onmousedown="plusMinus(id_pctA88_short,id_pctA88_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA92"><span class="S_PCT_TTL" id="id_pctA92_ttl" onmouseover="marcheaza(id_pctA92_ttl,id_pctA92)" onmouseout="demarcheaza(id_pctA92_ttl,id_pctA92)" onmousedown="plusMinus(id_pctA92_short,id_pctA92_bdy)">17.<!----></span> <span class="S_PCT_BDY" id="id_pctA92_bdy"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">Articolul 16^1</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA94" name="id_artA94"><span class="TAG_COLLAPSED" id="id_cllpsdA94" onmouseover="marcheaza(id_cllpsdA94,id_artA94)" onmouseout="demarcheaza(id_cllpsdA94,id_artA94)" onmousedown="plusMinus(id_artA94_bdy,id_cllpsdA94)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA94_ttl" onmouseover="marcheaza(id_artA94_ttl,id_artA94)" onmouseout="demarcheaza(id_artA94_ttl,id_artA94)" onmousedown="plusMinus(id_artA94_bdy,id_cllpsdA94)">Articolul 16^1</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA94_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA95">Când
+ raportul juridic dedus judecății o impune, instanța de contencios 
+administrativ va pune în discuția părților necesitatea introducerii în 
+cauză a altei persoane. Dacă niciuna dintre părți nu solicită 
+introducerea în cauză a terțului și instanța apreciază că pricina nu 
+poate fi soluționată fără participarea terțului, aceasta va respinge 
+cererea fără a se pronunța în fond.<!----></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA92_short" onmouseover="marcheaza(id_pctA92_short,id_pctA92)" onmouseout="demarcheaza(id_pctA92_short,id_pctA92)" onmousedown="plusMinus(id_pctA92_short,id_pctA92_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA96"><span class="S_PCT_TTL" id="id_pctA96_ttl" onmouseover="marcheaza(id_pctA96_ttl,id_pctA96)" onmouseout="demarcheaza(id_pctA96_ttl,id_pctA96)" onmousedown="plusMinus(id_pctA96_short,id_pctA96_bdy)">18.<!----></span> <span class="S_PCT_BDY" id="id_pctA96_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 17, alineatele (1)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(2)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA98" name="id_artA98"><span class="TAG_COLLAPSED" id="id_cllpsdA98" onmouseover="marcheaza(id_cllpsdA98,id_artA98)" onmouseout="demarcheaza(id_cllpsdA98,id_artA98)" onmousedown="plusMinus(id_artA98_bdy,id_cllpsdA98)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA98_ttl" onmouseover="marcheaza(id_artA98_ttl,id_artA98)" onmouseout="demarcheaza(id_artA98_ttl,id_artA98)" onmousedown="plusMinus(id_artA98_bdy,id_cllpsdA98)">Articolul 17</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA98_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA99"><span class="S_ALN_TTL" id="id_litA99_ttl" onmouseover="marcheaza(id_litA99_ttl,id_litA99)" onmouseout="demarcheaza(id_litA99_ttl,id_litA99)" onmousedown="plusMinus(id_litA99_short,id_litA99_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA99_bdy">
+ Cererile adresate instanței se judecă în ședință publică, în completul 
+stabilit de lege. Întâmpinarea este obligatorie și se va comunica 
+reclamantului cu cel puțin 15 zile înainte de primul termen de judecată.
+ </span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA100"><span class="S_ALN_TTL" id="id_litA100_ttl" onmouseover="marcheaza(id_litA100_ttl,id_litA100)" onmouseout="demarcheaza(id_litA100_ttl,id_litA100)" onmousedown="plusMinus(id_litA100_short,id_litA100_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA100_bdy"> Pentru cererile formulate în baza prezentei legi se percep taxele de timbru prevăzute de <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/191362">Ordonanța de urgență a Guvernului nr. 80/2013</a> privind taxele judiciare de timbru, cu modificările și completările ulterioare.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA96_short" onmouseover="marcheaza(id_pctA96_short,id_pctA96)" onmouseout="demarcheaza(id_pctA96_short,id_pctA96)" onmousedown="plusMinus(id_pctA96_short,id_pctA96_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA101"><span class="S_PCT_TTL" id="id_pctA101_ttl" onmouseover="marcheaza(id_pctA101_ttl,id_pctA101)" onmouseout="demarcheaza(id_pctA101_ttl,id_pctA101)" onmousedown="plusMinus(id_pctA101_short,id_pctA101_bdy)">19.<!----></span> <span class="S_PCT_BDY" id="id_pctA101_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 20, alineatul (2)</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA103"><span class="S_ALN_TTL" id="id_litA103_ttl" onmouseover="marcheaza(id_litA103_ttl,id_litA103)" onmouseout="demarcheaza(id_litA103_ttl,id_litA103)" onmousedown="plusMinus(id_litA103_short,id_litA103_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA103_bdy"> Recursul suspendă executarea și se judecă de urgență. Procedura prevăzută la <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">art. 493 din Codul de procedură civilă</a> nu se aplică în materia contenciosului administrativ.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA101_short" onmouseover="marcheaza(id_pctA101_short,id_pctA101)" onmouseout="demarcheaza(id_pctA101_short,id_pctA101)" onmousedown="plusMinus(id_pctA101_short,id_pctA101_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA104"><span class="S_PCT_TTL" id="id_pctA104_ttl" onmouseover="marcheaza(id_pctA104_ttl,id_pctA104)" onmouseout="demarcheaza(id_pctA104_ttl,id_pctA104)" onmousedown="plusMinus(id_pctA104_short,id_pctA104_bdy)">20.<!----></span> <span class="S_PCT_BDY" id="id_pctA104_bdy"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">Articolul 21</a> se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA106" name="id_artA106"><span class="TAG_COLLAPSED" id="id_cllpsdA106" onmouseover="marcheaza(id_cllpsdA106,id_artA106)" onmouseout="demarcheaza(id_cllpsdA106,id_artA106)" onmousedown="plusMinus(id_artA106_bdy,id_cllpsdA106)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA106_ttl" onmouseover="marcheaza(id_artA106_ttl,id_artA106)" onmouseout="demarcheaza(id_artA106_ttl,id_artA106)" onmousedown="plusMinus(id_artA106_bdy,id_cllpsdA106)">Articolul 21</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA106_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA107"><span class="S_ALN_TTL" id="id_litA107_ttl" onmouseover="marcheaza(id_litA107_ttl,id_litA107)" onmouseout="demarcheaza(id_litA107_ttl,id_litA107)" onmousedown="plusMinus(id_litA107_short,id_litA107_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA107_bdy"> Constituie motiv de revizuire, care se adaugă la cele prevăzute de <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">Codul de procedură civilă,</a> pronunțarea hotărârilor rămase definitive prin încălcarea principiului priorității dreptului Uniunii Europene, reglementat la <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355">art. 148 alin. (2)</a> coroborat cu <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355">art. 20 alin. (2) din Constituția României, republicată.</a></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA108"><span class="S_ALN_TTL" id="id_litA108_ttl" onmouseover="marcheaza(id_litA108_ttl,id_litA108)" onmouseout="demarcheaza(id_litA108_ttl,id_litA108)" onmousedown="plusMinus(id_litA108_short,id_litA108_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA108_bdy"> Sunt supuse revizuirii, pentru motivul prevăzut la alin. (1), și hotărârile definitive care nu evocă fondul.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA109"><span class="S_ALN_TTL" id="id_litA109_ttl" onmouseover="marcheaza(id_litA109_ttl,id_litA109)" onmouseout="demarcheaza(id_litA109_ttl,id_litA109)" onmousedown="plusMinus(id_litA109_short,id_litA109_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA109_bdy">
+ Cererea de revizuire se introduce în termen de o lună de la data 
+comunicării hotărârii definitive și se soluționează de urgență și cu 
+precădere.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA104_short" onmouseover="marcheaza(id_pctA104_short,id_pctA104)" onmouseout="demarcheaza(id_pctA104_short,id_pctA104)" onmousedown="plusMinus(id_pctA104_short,id_pctA104_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA110"><span class="S_PCT_TTL" id="id_pctA110_ttl" onmouseover="marcheaza(id_pctA110_ttl,id_pctA110)" onmouseout="demarcheaza(id_pctA110_ttl,id_pctA110)" onmousedown="plusMinus(id_pctA110_short,id_pctA110_bdy)">21.<!----></span> <span class="S_PCT_BDY" id="id_pctA110_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 24, alineatele (3)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(4)</a> se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA112"><span class="S_ALN_TTL" id="id_litA112_ttl" onmouseover="marcheaza(id_litA112_ttl,id_litA112)" onmouseout="demarcheaza(id_litA112_ttl,id_litA112)" onmousedown="plusMinus(id_litA112_short,id_litA112_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA112_bdy">
+ La cererea creditorului, în termenul de prescripție a dreptului de a 
+obține executarea silită, care curge de la expirarea termenelor 
+prevăzute la alin. (1) și care nu au fost respectate în mod culpabil, 
+instanța de executare, prin hotărâre dată cu citarea părților, aplică 
+conducătorului autorității publice sau, după caz, persoanei obligate o 
+amendă de 20% din salariul minim brut pe economie pe zi de întârziere, 
+care se face venit la bugetul de stat, iar reclamantului îi acordă 
+penalități, în condițiile <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">art. 906 din Codul de procedură civilă</a>.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA113"><span class="S_ALN_TTL" id="id_litA113_ttl" onmouseover="marcheaza(id_litA113_ttl,id_litA113)" onmouseout="demarcheaza(id_litA113_ttl,id_litA113)" onmousedown="plusMinus(id_litA113_short,id_litA113_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA113_bdy">
+ Dacă în termen de 3 luni de la data comunicării hotărârii de aplicare a
+ amenzii și de acordare a penalităților debitorul, în mod culpabil, nu 
+execută obligația prevăzută în titlul executoriu, instanța de executare,
+ la cererea creditorului, va fixa suma ce se va datora statului și suma 
+ce i se va datora lui cu titlu de penalități, prin hotărâre dată cu 
+citarea părților. Totodată, prin aceeași hotărâre, instanța va stabili, 
+în condițiile <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">art. 892 din Codul de procedură civilă</a>, despăgubirile pe care debitorul le datorează creditorului pentru neexecutarea în natură a obligației.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA110_short" onmouseover="marcheaza(id_pctA110_short,id_pctA110)" onmouseout="demarcheaza(id_pctA110_short,id_pctA110)" onmousedown="plusMinus(id_pctA110_short,id_pctA110_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA114"><span class="S_PCT_TTL" id="id_pctA114_ttl" onmouseover="marcheaza(id_pctA114_ttl,id_pctA114)" onmouseout="demarcheaza(id_pctA114_ttl,id_pctA114)" onmousedown="plusMinus(id_pctA114_short,id_pctA114_bdy)">22.<!----></span> <span class="S_PCT_BDY" id="id_pctA114_bdy">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">articolul 25, alineatele (2)</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(3)</a> se modifică și vor avea următorul cuprins:  <span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA116"><span class="S_ALN_TTL" id="id_litA116_ttl" onmouseover="marcheaza(id_litA116_ttl,id_litA116)" onmouseout="demarcheaza(id_litA116_ttl,id_litA116)" onmousedown="plusMinus(id_litA116_short,id_litA116_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA116_bdy"> Cererile prevăzute la art. 24 alin. <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(3)</a> și (4) se judecă în camera de consiliu, de urgență, și sunt scutite de taxa judiciară de timbru. Procedura prevăzută la <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">art. 200</a> și <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202848">201 din Codul de procedură civilă</a>
+ nu este aplicabilă. Întâmpinarea este obligatorie și se depune la 
+dosarul cauzei cu cel puțin 3 zile înainte de termenul de judecată. 
+Reclamantul va lua cunoștință de conținutul întâmpinării de la dosarul 
+cauzei. Instanța poate acorda un nou termen de judecată în cazul în care
+ reclamantul solicită amânarea pentru a lua cunoștință de conținutul 
+întâmpinării.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA117"><span class="S_ALN_TTL" id="id_litA117_ttl" onmouseover="marcheaza(id_litA117_ttl,id_litA117)" onmouseout="demarcheaza(id_litA117_ttl,id_litA117)" onmousedown="plusMinus(id_litA117_short,id_litA117_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA117_bdy"> Hotărârile pronunțate în condițiile art. 24 alin. <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/183776">(3)</a> și (4) sunt supuse numai recursului, în termen de 5 zile de la comunicare.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA114_short" onmouseover="marcheaza(id_pctA114_short,id_pctA114)" onmouseout="demarcheaza(id_pctA114_short,id_pctA114)" onmousedown="plusMinus(id_pctA114_short,id_pctA114_bdy)">&nbsp;...&nbsp;</span></span><!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA118" name="id_artA118"><span class="TAG_COLLAPSED" id="id_cllpsdA118" onmouseover="marcheaza(id_cllpsdA118,id_artA118)" onmouseout="demarcheaza(id_cllpsdA118,id_artA118)" onmousedown="plusMinus(id_artA118_bdy,id_cllpsdA118)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA118_ttl" onmouseover="marcheaza(id_artA118_ttl,id_artA118)" onmouseout="demarcheaza(id_artA118_ttl,id_artA118)" onmousedown="plusMinus(id_artA118_bdy,id_cllpsdA118)">Articolul II</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA118_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA119">Articolul 53 din <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/200900">Legea nr. 101/2016</a>
+ privind remediile și căile de atac în materie de atribuire a 
+contractelor de achiziție publică, a contractelor sectoriale și a 
+contractelor de concesiune de lucrări și concesiune de servicii, precum 
+și pentru organizarea și funcționarea Consiliului Național de 
+Soluționare a Contestațiilor, publicată în Monitorul Oficial al 
+României, Partea I, nr. 393 din 23 mai 2016, cu modificările și 
+completările ulterioare, se modifică și se completează după cum urmează:<span class="S_PCT" style="display: block; color:black;" id="id_pctA120"><span class="S_PCT_TTL" id="id_pctA120_ttl" onmouseover="marcheaza(id_pctA120_ttl,id_pctA120)" onmouseout="demarcheaza(id_pctA120_ttl,id_pctA120)" onmousedown="plusMinus(id_pctA120_short,id_pctA120_bdy)">1.<!----></span> <span class="S_PCT_BDY" id="id_pctA120_bdy"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/200900">Alineatul (1)</a> se modifică și va avea următorul cuprins:  <span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA122" name="id_artA122"><span class="TAG_COLLAPSED" id="id_cllpsdA122" onmouseover="marcheaza(id_cllpsdA122,id_artA122)" onmouseout="demarcheaza(id_cllpsdA122,id_artA122)" onmousedown="plusMinus(id_artA122_bdy,id_cllpsdA122)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA122_ttl" onmouseover="marcheaza(id_artA122_ttl,id_artA122)" onmouseout="demarcheaza(id_artA122_ttl,id_artA122)" onmousedown="plusMinus(id_artA122_bdy,id_cllpsdA122)">Articolul 53</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA122_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA123"><span class="S_ALN_TTL" id="id_litA123_ttl" onmouseover="marcheaza(id_litA123_ttl,id_litA123)" onmouseout="demarcheaza(id_litA123_ttl,id_litA123)" onmousedown="plusMinus(id_litA123_short,id_litA123_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA123_bdy">
+ Procesele și cererile privind acordarea despăgubirilor pentru repararea
+ prejudiciilor cauzate în cadrul procedurii de atribuire, precum și cele
+ privind anularea sau nulitatea contractelor se soluționează în primă 
+instanță, de urgență și cu precădere, de către secția de contencios 
+administrativ și fiscal a tribunalului în circumscripția căruia se află 
+sediul autorității contractante, prin completuri specializate în 
+achiziții publice.</span></span></span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA120_short" onmouseover="marcheaza(id_pctA120_short,id_pctA120)" onmouseout="demarcheaza(id_pctA120_short,id_pctA120)" onmousedown="plusMinus(id_pctA120_short,id_pctA120_bdy)">&nbsp;...&nbsp;</span></span><span class="S_PCT" style="display: block; color:black;" id="id_pctA124"><span class="S_PCT_TTL" id="id_pctA124_ttl" onmouseover="marcheaza(id_pctA124_ttl,id_pctA124)" onmouseout="demarcheaza(id_pctA124_ttl,id_pctA124)" onmousedown="plusMinus(id_pctA124_short,id_pctA124_bdy)">2.<!----></span> <span class="S_PCT_BDY" id="id_pctA124_bdy"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/200900">După alineatul (1)</a> se introduc două noi alineate, alineatele (1^1) și (1^2), cu următorul cuprins:  <span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA126"><span class="S_ALN_TTL" id="id_litA126_ttl" onmouseover="marcheaza(id_litA126_ttl,id_litA126)" onmouseout="demarcheaza(id_litA126_ttl,id_litA126)" onmousedown="plusMinus(id_litA126_short,id_litA126_bdy)">(1^1)<!----></span> <span class="S_ALN_BDY" id="id_litA126_bdy">Procesele
+ și cererile care decurg din executarea contractelor administrative se 
+soluționează în primă instanță, de urgență și cu precădere, de către 
+instanța civilă de drept comun în circumscripția căreia se află sediul 
+autorității contractante.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA127"><span class="S_ALN_TTL" id="id_litA127_ttl" onmouseover="marcheaza(id_litA127_ttl,id_litA127)" onmouseout="demarcheaza(id_litA127_ttl,id_litA127)" onmousedown="plusMinus(id_litA127_short,id_litA127_bdy)">(1^2)<!----></span> <span class="S_ALN_BDY" id="id_litA127_bdy">Acțiunile
+ prevăzute la alin. (1) și (1^1) se pot introduce și la instanțele de la
+ locul încheierii contractului, dacă în acest loc funcționează o unitate
+ ce aparține autorității contractante.</span></span></span></span><span style="display:none" class="S_PCT_SHORT" id="id_pctA124_short" onmouseover="marcheaza(id_pctA124_short,id_pctA124)" onmouseout="demarcheaza(id_pctA124_short,id_pctA124)" onmousedown="plusMinus(id_pctA124_short,id_pctA124_bdy)">&nbsp;...&nbsp;</span></span><!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA128" name="id_artA128"><span class="TAG_COLLAPSED" id="id_cllpsdA128" onmouseover="marcheaza(id_cllpsdA128,id_artA128)" onmouseout="demarcheaza(id_cllpsdA128,id_artA128)" onmousedown="plusMinus(id_artA128_bdy,id_cllpsdA128)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA128_ttl" onmouseover="marcheaza(id_artA128_ttl,id_artA128)" onmouseout="demarcheaza(id_artA128_ttl,id_artA128)" onmousedown="plusMinus(id_artA128_bdy,id_cllpsdA128)">Articolul III</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA128_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA129">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202942">articolul 35</a> din <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/195859">Legea nr. 165/2013</a>
+ privind măsurile pentru finalizarea procesului de restituire, în natură
+ sau prin echivalent, a imobilelor preluate în mod abuziv în perioada 
+regimului comunist în România, publicată în Monitorul Oficial al 
+României, Partea I, nr. 278 din 17 mai 2013, cu modificările și 
+completările ulterioare, după alineatul (1) se introduce un nou alineat,
+ alineatul (1^1), cu următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA131"><span class="S_ALN_TTL" id="id_litA131_ttl" onmouseover="marcheaza(id_litA131_ttl,id_litA131)" onmouseout="demarcheaza(id_litA131_ttl,id_litA131)" onmousedown="plusMinus(id_litA131_short,id_litA131_bdy)">(1^1)<!----></span> <span class="S_ALN_BDY" id="id_litA131_bdy">Litigiile
+ privind modalitatea de aplicare a prevederilor prezentei legi sunt de 
+competența secțiilor civile ale tribunalelor, indiferent de calitatea 
+titularului acțiunii.</span></span></span><!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA132" name="id_artA132"><span class="TAG_COLLAPSED" id="id_cllpsdA132" onmouseover="marcheaza(id_cllpsdA132,id_artA132)" onmouseout="demarcheaza(id_cllpsdA132,id_artA132)" onmousedown="plusMinus(id_artA132_bdy,id_cllpsdA132)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA132_ttl" onmouseover="marcheaza(id_artA132_ttl,id_artA132)" onmouseout="demarcheaza(id_artA132_ttl,id_artA132)" onmousedown="plusMinus(id_artA132_bdy,id_cllpsdA132)">Articolul IV</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA132_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA133"><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/163856">Articolul 8</a> din <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/163856">Legea nr. 164/2014</a> privind unele măsuri pentru accelerarea și finalizarea procesului de soluționare a cererilor formulate în temeiul <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/163906">Legii nr. 9/1998</a> privind acordarea de compensații cetățenilor români pentru bunurile trecute în proprietatea statului bulgar în urma aplicării <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/23040">Tratatului dintre România și Bulgaria</a>, semnat la Craiova la 7 septembrie 1940, precum și al <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/163905">Legii nr. 290/2003</a>
+ privind acordarea de despăgubiri sau compensații cetățenilor români 
+pentru bunurile proprietate a acestora, sechestrate, reținute sau rămase
+ în Basarabia, Bucovina de Nord și Ținutul Herța, ca urmare a stării de 
+război și a aplicării <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/126153">Tratatului de Pace între România și Puterile Aliate și Asociate</a>,
+ semnat la Paris la 10 februarie 1947, și pentru modificarea unor acte 
+normative, publicată în Monitorul Oficial al României, Partea I, nr. 910
+ din 15 decembrie 2014, se modifică și va avea următorul cuprins:<span class="S_CIT"><span class="S_ART" style="display: block; color:black;" id="id_artA135" name="id_artA135"><span class="TAG_COLLAPSED" id="id_cllpsdA135" onmouseover="marcheaza(id_cllpsdA135,id_artA135)" onmouseout="demarcheaza(id_cllpsdA135,id_artA135)" onmousedown="plusMinus(id_artA135_bdy,id_cllpsdA135)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA135_ttl" onmouseover="marcheaza(id_artA135_ttl,id_artA135)" onmouseout="demarcheaza(id_artA135_ttl,id_artA135)" onmousedown="plusMinus(id_artA135_bdy,id_cllpsdA135)">Articolul 8</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA135_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA136">Deciziile
+ de validare/invalidare ale Autorității Naționale pentru Restituirea 
+Proprietăților pot fi atacate în termen de 30 de zile de la comunicare. 
+Litigiile privind modalitatea de aplicare a prevederilor prezentei legi 
+sunt de competența secțiilor civile ale tribunalelor, indiferent de 
+calitatea titularului acțiunii.<!----></span></span></span></span><!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA137" name="id_artA137"><span class="TAG_COLLAPSED" id="id_cllpsdA137" onmouseover="marcheaza(id_cllpsdA137,id_artA137)" onmouseout="demarcheaza(id_cllpsdA137,id_artA137)" onmousedown="plusMinus(id_artA137_bdy,id_cllpsdA137)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA137_ttl" onmouseover="marcheaza(id_artA137_ttl,id_artA137)" onmouseout="demarcheaza(id_artA137_ttl,id_artA137)" onmousedown="plusMinus(id_artA137_bdy,id_cllpsdA137)">Articolul V</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA137_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA138">La <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202482">articolul 272</a> din <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/202482">Legea nr. 207/2015 privind Codul de procedură fiscală</a>,
+ publicată în Monitorul Oficial al României, Partea I, nr. 547 din 23 
+iulie 2015, cu modificările și completările ulterioare, alineatele 
+(2)-(5) se modifică și vor avea următorul cuprins:<span class="S_CIT"><span class="S_ALN" style="display: block; color:black;" id="id_litA140"><span class="S_ALN_TTL" id="id_litA140_ttl" onmouseover="marcheaza(id_litA140_ttl,id_litA140)" onmouseout="demarcheaza(id_litA140_ttl,id_litA140)" onmousedown="plusMinus(id_litA140_short,id_litA140_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA140_bdy">
+ Structurile specializate de soluționare a contestațiilor din cadrul 
+direcțiilor generale regionale ale finanțelor publice în a căror rază 
+teritorială își au domiciliul fiscal contestatarii sunt competente 
+pentru soluționarea contestațiilor ce au ca obiect:<span class="S_LIT" style="display: block; color:black;" id="id_litA141"><span class="S_LIT_TTL" id="id_litA141_ttl" onmouseover="marcheaza(id_litA141_ttl,id_litA141)" onmouseout="demarcheaza(id_litA141_ttl,id_litA141)" onmousedown="plusMinus(id_litA141_short,id_litA141_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA141_bdy">creanțe fiscale în cuantum de până la 3 milioane lei;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA141_short" onmouseover="marcheaza(id_litA141_short,id_litA141)" onmouseout="demarcheaza(id_litA141_short,id_litA141)" onmousedown="plusMinus(id_litA141_short,id_litA141_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA142"><span class="S_LIT_TTL" id="id_litA142_ttl" onmouseover="marcheaza(id_litA142_ttl,id_litA142)" onmouseout="demarcheaza(id_litA142_ttl,id_litA142)" onmousedown="plusMinus(id_litA142_short,id_litA142_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA142_bdy">măsura de diminuare a pierderii fiscale în cuantum de până la 3 milioane lei;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA142_short" onmouseover="marcheaza(id_litA142_short,id_litA142)" onmouseout="demarcheaza(id_litA142_short,id_litA142)" onmousedown="plusMinus(id_litA142_short,id_litA142_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA143"><span class="S_LIT_TTL" id="id_litA143_ttl" onmouseover="marcheaza(id_litA143_ttl,id_litA143)" onmouseout="demarcheaza(id_litA143_ttl,id_litA143)" onmousedown="plusMinus(id_litA143_short,id_litA143_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA143_bdy">deciziile
+ de reverificare, cu excepția celor pentru care competența de 
+soluționare aparține direcției generale prevăzute la alin. (5);</span><span style="display: none" class="S_LIT_SHORT" id="id_litA143_short" onmouseover="marcheaza(id_litA143_short,id_litA143)" onmouseout="demarcheaza(id_litA143_short,id_litA143)" onmousedown="plusMinus(id_litA143_short,id_litA143_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA144"><span class="S_LIT_TTL" id="id_litA144_ttl" onmouseover="marcheaza(id_litA144_ttl,id_litA144)" onmouseout="demarcheaza(id_litA144_ttl,id_litA144)" onmousedown="plusMinus(id_litA144_short,id_litA144_bdy)">d)<!----></span> <span class="S_LIT_BDY" id="id_litA144_bdy">creanțele
+ fiscale accesorii, indiferent de cuantum, aferente creanțelor fiscale 
+principale stabilite prin decizii de impunere/ acte administrative 
+fiscale asimilate deciziilor de impunere contestate și pentru care 
+competența de soluționare a contestației revine structurii specializate 
+de soluționare a contestațiilor din cadrul direcțiilor generale 
+regionale ale finanțelor.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA144_short" onmouseover="marcheaza(id_litA144_short,id_litA144)" onmouseout="demarcheaza(id_litA144_short,id_litA144)" onmousedown="plusMinus(id_litA144_short,id_litA144_bdy)">&nbsp;...&nbsp;</span></span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA146"><span class="S_ALN_TTL" id="id_litA146_ttl" onmouseover="marcheaza(id_litA146_ttl,id_litA146)" onmouseout="demarcheaza(id_litA146_ttl,id_litA146)" onmousedown="plusMinus(id_litA146_short,id_litA146_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA146_bdy">
+ Structura specializată de soluționare a contestațiilor din cadrul 
+Direcției Generale de Administrare a Marilor Contribuabili este 
+competentă să soluționeze contestațiile formulate de marii contribuabili
+ ce au ca obiect:<span class="S_LIT" style="display: block; color:black;" id="id_litA147"><span class="S_LIT_TTL" id="id_litA147_ttl" onmouseover="marcheaza(id_litA147_ttl,id_litA147)" onmouseout="demarcheaza(id_litA147_ttl,id_litA147)" onmousedown="plusMinus(id_litA147_short,id_litA147_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA147_bdy">creanțe fiscale în cuantum de până la 3 milioane lei;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA147_short" onmouseover="marcheaza(id_litA147_short,id_litA147)" onmouseout="demarcheaza(id_litA147_short,id_litA147)" onmousedown="plusMinus(id_litA147_short,id_litA147_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA148"><span class="S_LIT_TTL" id="id_litA148_ttl" onmouseover="marcheaza(id_litA148_ttl,id_litA148)" onmouseout="demarcheaza(id_litA148_ttl,id_litA148)" onmousedown="plusMinus(id_litA148_short,id_litA148_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA148_bdy">măsura de diminuare a pierderii fiscale în cuantum de până la 3 milioane lei;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA148_short" onmouseover="marcheaza(id_litA148_short,id_litA148)" onmouseout="demarcheaza(id_litA148_short,id_litA148)" onmousedown="plusMinus(id_litA148_short,id_litA148_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA149"><span class="S_LIT_TTL" id="id_litA149_ttl" onmouseover="marcheaza(id_litA149_ttl,id_litA149)" onmouseout="demarcheaza(id_litA149_ttl,id_litA149)" onmousedown="plusMinus(id_litA149_short,id_litA149_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA149_bdy">deciziile
+ de reverificare, cu excepția celor pentru care competența de 
+soluționare aparține direcției generale prevăzute la alin. (5);</span><span style="display: none" class="S_LIT_SHORT" id="id_litA149_short" onmouseover="marcheaza(id_litA149_short,id_litA149)" onmouseout="demarcheaza(id_litA149_short,id_litA149)" onmousedown="plusMinus(id_litA149_short,id_litA149_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA150"><span class="S_LIT_TTL" id="id_litA150_ttl" onmouseover="marcheaza(id_litA150_ttl,id_litA150)" onmouseout="demarcheaza(id_litA150_ttl,id_litA150)" onmousedown="plusMinus(id_litA150_short,id_litA150_bdy)">d)<!----></span> <span class="S_LIT_BDY" id="id_litA150_bdy">creanțele
+ fiscale accesorii, indiferent de cuantum, aferente creanțelor fiscale 
+principale stabilite prin decizii de impunere/acte administrative 
+fiscale asimilate deciziilor de impunere contestate și pentru care 
+competența de soluționare a contestației revine structurii specializate 
+de soluționare a contestațiilor din cadrul Direcției Generale de 
+Administrare a Marilor Contribuabili.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA150_short" onmouseover="marcheaza(id_litA150_short,id_litA150)" onmouseout="demarcheaza(id_litA150_short,id_litA150)" onmousedown="plusMinus(id_litA150_short,id_litA150_bdy)">&nbsp;...&nbsp;</span></span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA151"><span class="S_ALN_TTL" id="id_litA151_ttl" onmouseover="marcheaza(id_litA151_ttl,id_litA151)" onmouseout="demarcheaza(id_litA151_ttl,id_litA151)" onmousedown="plusMinus(id_litA151_short,id_litA151_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA151_bdy">
+ Contestațiile formulate de contribuabilii nerezidenți care nu au pe 
+teritoriul României un sediu permanent ce au ca obiect creanțe fiscale 
+în cuantum de până la 3 milioane lei se soluționează de structura 
+specializată de soluționare a contestațiilor din cadrul direcțiilor 
+generale regionale ale finanțelor publice/Direcția Generală de 
+Administrare a Marilor Contribuabili competentă pentru administrarea 
+creanțelor respectivului contribuabil nerezident.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA152"><span class="S_ALN_TTL" id="id_litA152_ttl" onmouseover="marcheaza(id_litA152_ttl,id_litA152)" onmouseout="demarcheaza(id_litA152_ttl,id_litA152)" onmousedown="plusMinus(id_litA152_short,id_litA152_bdy)">(5)<!----></span> <span class="S_ALN_BDY" id="id_litA152_bdy">
+ Direcția generală de soluționare a contestațiilor din cadrul A.N.A.F. 
+este competentă pentru soluționarea contestațiilor care au ca obiect:<span class="S_LIT" style="display: block; color:black;" id="id_litA153"><span class="S_LIT_TTL" id="id_litA153_ttl" onmouseover="marcheaza(id_litA153_ttl,id_litA153)" onmouseout="demarcheaza(id_litA153_ttl,id_litA153)" onmousedown="plusMinus(id_litA153_short,id_litA153_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA153_bdy">creanțe fiscale în cuantum de 3 milioane lei sau mai mare;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA153_short" onmouseover="marcheaza(id_litA153_short,id_litA153)" onmouseout="demarcheaza(id_litA153_short,id_litA153)" onmousedown="plusMinus(id_litA153_short,id_litA153_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA154"><span class="S_LIT_TTL" id="id_litA154_ttl" onmouseover="marcheaza(id_litA154_ttl,id_litA154)" onmouseout="demarcheaza(id_litA154_ttl,id_litA154)" onmousedown="plusMinus(id_litA154_short,id_litA154_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA154_bdy">măsura de diminuare a pierderii fiscale în cuantum de 3 milioane lei sau mai mare;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA154_short" onmouseover="marcheaza(id_litA154_short,id_litA154)" onmouseout="demarcheaza(id_litA154_short,id_litA154)" onmousedown="plusMinus(id_litA154_short,id_litA154_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA155"><span class="S_LIT_TTL" id="id_litA155_ttl" onmouseover="marcheaza(id_litA155_ttl,id_litA155)" onmouseout="demarcheaza(id_litA155_ttl,id_litA155)" onmousedown="plusMinus(id_litA155_short,id_litA155_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA155_bdy">creanțe
+ fiscale și măsura de diminuare a pierderii fiscale indiferent de 
+cuantum, precum și decizia de reverificare, în cazul contestațiilor 
+formulate de contribuabili împotriva actelor emise de organele fiscale 
+din aparatul central al A.N.A.F.;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA155_short" onmouseover="marcheaza(id_litA155_short,id_litA155)" onmouseout="demarcheaza(id_litA155_short,id_litA155)" onmousedown="plusMinus(id_litA155_short,id_litA155_bdy)">&nbsp;...&nbsp;</span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA156"><span class="S_LIT_TTL" id="id_litA156_ttl" onmouseover="marcheaza(id_litA156_ttl,id_litA156)" onmouseout="demarcheaza(id_litA156_ttl,id_litA156)" onmousedown="plusMinus(id_litA156_short,id_litA156_bdy)">d)<!----></span> <span class="S_LIT_BDY" id="id_litA156_bdy">creanțele
+ fiscale accesorii, indiferent de cuantum, aferente creanțelor fiscale 
+principale stabilite prin decizii de impunere/acte administrative 
+fiscale asimilate deciziilor de impunere contestate și pentru care 
+competența de soluționare a contestației revine Direcției generale de 
+soluționare a contestațiilor din cadrul A.N.A.F.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA156_short" onmouseover="marcheaza(id_litA156_short,id_litA156)" onmouseout="demarcheaza(id_litA156_short,id_litA156)" onmousedown="plusMinus(id_litA156_short,id_litA156_bdy)">&nbsp;...&nbsp;</span></span></span></span></span><!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA157" name="id_artA157"><span class="TAG_COLLAPSED" id="id_cllpsdA157" onmouseover="marcheaza(id_cllpsdA157,id_artA157)" onmouseout="demarcheaza(id_cllpsdA157,id_artA157)" onmousedown="plusMinus(id_artA157_bdy,id_cllpsdA157)">
+				&nbsp;+&nbsp;
+			</span><span class="S_ART_TTL" id="id_artA157_ttl" onmouseover="marcheaza(id_artA157_ttl,id_artA157)" onmouseout="demarcheaza(id_artA157_ttl,id_artA157)" onmousedown="plusMinus(id_artA157_bdy,id_cllpsdA157)">Articolul VI</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA157_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA158">Prevederile <span class="S_LGI">art. V</span> se aplică contestațiilor depuse după data intrării în vigoare a prezentei legi.<!----></span></span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA159">Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355">art. 75</a> și ale <a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355">art. 76 alin. (1) din Constituția României, republicată</a>.  <!----></span><span class="S_SMN"><br><span class="S_SMN_PAR">p. PREȘEDINTELE CAMEREI DEPUTAȚILOR, <!----></span><br><span class="S_SMN_PAR">FLORIN IORDACHE  <!----></span><br><span class="S_SMN_PAR">p. PREȘEDINTELE SENATULUI,<!----></span><br><span class="S_SMN_PAR">ADRIAN ȚUȚUIANU  <!----></span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA164">București, 25 iulie 2018.<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA165">Nr. 212.<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA168">-----<!----></span>
+                                    </div>
+                                    <div id="div_Formerepublicate" class="content_forma_act" style="display: none" data-state="empty"></div>
+                                    <div id="div_Formadebaza" class="content_forma_act" style="display: none" data-state="empty"></div>
+
+
+                        </div>
+
+                        <div id="fisa_act_container" style="display: none" data-id="FisaAct" data-state="empty">
+                                <div id="div_Actiunisuferite" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_ActiuniInduse" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_Referape" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_Referitde" class="content_fisa_act" data-state="empty">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+    if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+        $("#meniu").css("float", "left");
+        $("#meniu").css("width", "20%");
+        $(".affix-top").css("position", "fixed");
+        $(".affix-top").css("top", "20px");
+        $(".affix-bottom").css("top", "20px");
+        $("#infoactinfoact").css("float", "right");
+        $("#infoactinfoact").css("width", "79%");
+        //var naturalWidth = img.naturalWidth;
+        //var imagini = document.getElementsByTagName("img");
+        //for (i=0;i<imagini.length;i++)
+        //{
+         //   alert(imagini[i].naturalWidth);
+         //   imagini[i].setAttribute("style","max-width:"+imagini[i].naturalWidth+"px");
+       // }
+       //////$("#infoactinfoact img").css("max-width", +"px");
+        /////alert($("#infoactinfoact img").width);
+        $("#infoactinfoact img").css("width", "auto");
+         
+        
+ 
+    }
+    var sbarHeight = null;
+
+    $(function () {
+
+        if (document.getElementsByClassName("alert")[0])
+            document.getElementsByClassName("alert")[0].style.visibility = 'hidden';
+
+        document.getElementById("Actiunisuferite").checked = false;
+        document.getElementById("ActiuniInduse").checked = false;
+        document.getElementById("Referape").checked = false;
+        document.getElementById("Referitde").checked = false;
+
+        //alert(document.getElementById("header_wrapper").offsetHeight);
+        //alert(screen.height);
+
+        var inaltime_meniu_stanga = screen.height - document.getElementById("header_wrapper").offsetHeight;
+        //alert(inaltime_meniu_stanga);
+        //  document.getElementById("meniu_stanga").style.maxHeight = inaltime_meniu_stanga + "px";
+
+        if (window.location.href.indexOf("forma_de_baza") != -1) {
+            document.getElementById("Formadebaza").style.disabled = true;
+            document.getElementById("Formadebaza").nextSibling.style.disabled = true;
+        }
+
+        if (window.location.href.indexOf("isFormaDeBaza") != -1) {
+            if (document.getElementById('istoric_fa'))
+                document.getElementById('istoric_fa').style.display = 'none'
+            document.getElementById("Formadebaza").checked = true;
+        }
+
+        if (window.location.href.indexOf("#A") != -1) {
+            var id_elem = window.location.href.split("#")[1];
+            window.scrollTo(id_elem.offsetHeight, 0);
+        }
+        else
+            window.scrollTo(0, 0);
+
+        //alert(document.getElementById('menu'));
+
+        //afisare/ascundere radio buttons (forme consolidate, forme republicate, forma de baza)
+
+        if (window.innerWidth < 1010) {
+            document.getElementById('sidebar').id = 'sidebar1';
+            document.getElementById('meniutitlu').appendChild(document.getElementById('sidebar1'));
+            document.getElementById('sidebar1').style.display = 'block';
+        }
+
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        && location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 0 //offsets for fixed header
+                    }, 50);
+                    return false;
+                }
+            }
+        });
+        //Executed on page load with URL containing an anchor tag.
+        if ($(location.href.split("#")[1])) {
+            var target = $('#' + location.href.split("#")[1]);
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 0 //offset height of header here too.
+                }, 50);
+                return false;
+            }
+        }
+        /*
+        $("#sidebar").affix({
+            offset: {
+                top: $("header").outerHeight(true),
+                bottom: $("footer").outerHeight(true)+10
+            }
+        });
+        */
+        //alert(inaltimediv);
+        //document.getElementsByClassName('meniuaffix')[0].style.maxHeight = inaltimediv + "px";
+      $(window).resize(function () {
+            doResizeMenu();
+        });
+        
+        // scroll pe meniu la incarcare pagina (onload jQuery)
+      doResizeMenu();
+      imgSIZE(); // redim poze
+
+      // inaltime initiala sidebar
+      if ($("#sidebar").html())
+          sbarHeight = $("#sidebar").height();
+      else
+          sbarHeight = $("#sidebar1").height();
+        
+      $(window).scroll(function () {
+          if (isScrolledIntoView($(".footer_logo"))) {
+              $("#sidebar").height(sbarHeight - 200);
+          }
+          else {
+              $("#sidebar").height(sbarHeight);
+          }
+      });
+
+      var _tipact = 1;
+        //alert(_tipact);
+        if ((_tipact == 3 || _tipact == 2) && window.location.href.indexOf('isFormaDeBaza') == -1)
+        {
+            if (document.getElementById('Formaconsolidata'))
+            {
+                document.getElementById('Formaconsolidata').checked = true;
+            }
+        }        
+        else
+        {
+            //republicare
+            if (_tipact == 4)
+            {
+                if (document.getElementById('Formerepublicate'))
+                {
+                    document.getElementById('Formerepublicate').checked = true;
+                }
+                else if (document.getElementById('Formadebaza'))
+                {
+                    document.getElementById('Formadebaza').checked = true;
+                }
+            }
+            else
+                if (document.getElementById('Formadebaza'))
+                {
+                    document.getElementById('Formadebaza').checked = true;
+                }
+        }
+        //republicata (fortez forma de baza)
+        if (_tipact == 5)
+        {
+            if (document.getElementById('Formaconsolidata'))
+            {
+                document.getElementById('Formaconsolidata').checked = true;
+            }
+        }
+
+    }); // onload jQuery END
+
+    function doResizeMenu() {
+        var proc = 65;
+        var wh = window.innerHeight;
+        var dy = Math.floor(proc*wh/100);
+        var inaltimediv = window.innerHeight;
+        //var inaltimediv = window.innerHeight - $('#header_footer').height() - 400; // $("#footer_wrapper").height();
+        var inaltimediv1 = window.innerHeight - $('#header_wrapper').height();
+        
+        $("#sidebar").height(dy);
+        $("#sidebar1").height(inaltimediv1);
+    }
+
+    function AfiseazaTextModificat(e) {
+        // console.log($(e).prop("checked"));
+    }
+    function toggle_cuprins() {
+        if (document.getElementById('tree_cuprins_act').style.display != 'none')
+            document.getElementById('tree_cuprins_act').style.display = 'none'
+        else
+            document.getElementById('tree_cuprins_act').style.display = 'block';
+    }
+
+    function toggle_fisaact() {
+        if (document.getElementById('content_fisaact').style.display != 'none') {
+            document.getElementById('label_fisaact_plus_minus').innerHTML = '+';
+            document.getElementById('content_fisaact').style.display = 'none'
+        }
+        else {
+            document.getElementById('label_fisaact_plus_minus').innerHTML = '&#8212;&#160;';
+            document.getElementById('content_fisaact').style.display = 'block';
+        }
+    }
+
+    function toggle_istoric_forme_actz() {
+        if (document.getElementById('istoric_fa').style.display != 'none') {
+            document.getElementById('istoric_fa').style.display = 'none';
+            document.getElementById('label_forme_actz').innerHTML = "&nbsp;&nbsp;&nbsp;+&nbsp;istoric consolidari";
+        }
+        else {
+            document.getElementById('istoric_fa').style.display = 'block';
+            document.getElementById('label_forme_actz').innerHTML = "&nbsp;&nbsp;&nbsp;&#8212;&nbsp;istoric consolidari";
+        }
+    }
+    function scroll_to_fa() {
+        if (document.getElementById('fa_selectata'))
+            document.getElementById('meniu_stanga').scrollTop = document.getElementById('fa_selectata').offsetTop;
+    }
+    function ArataFisaAct(elem) {
+        //alert(elem.id);
+        if (elem.id == 'Actiunisuferite')
+        {
+            if (document.getElementById('actiuni_suferite').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/actiuniSuferite", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('actiuni_suferite').style.height = '30px';
+                    document.getElementById('actiuni_suferite').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('actiuni_suferite').style.display == 'none')
+                document.getElementById('actiuni_suferite').style.display = 'block';            
+            else
+                document.getElementById('actiuni_suferite').style.display = 'none';
+            
+        }
+
+        if (elem.id == 'ActiuniInduse')
+        {
+            if (document.getElementById('actiuni_induse').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/actiuniInduse", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('actiuni_induse').style.height = '30px';
+                    document.getElementById('actiuni_induse').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('actiuni_induse').style.display == 'none')
+                document.getElementById('actiuni_induse').style.display = 'block';
+            else
+                document.getElementById('actiuni_induse').style.display = 'none';
+        }
+
+        if (elem.id == 'Referape')
+        {
+            if (document.getElementById('refera_pe').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/referaPe", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('refera_pe').style.height = '30px';
+                    document.getElementById('refera_pe').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('refera_pe').style.display == 'none')
+                document.getElementById('refera_pe').style.display = 'block';
+            else
+                document.getElementById('refera_pe').style.display = 'none';
+        }
+
+        if (elem.id == 'Referitde')
+        {
+            if (document.getElementById('referit_de').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/referitDe", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('referit_de').style.height = '30px';
+                    document.getElementById('referit_de').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('referit_de').style.display == 'none')
+                document.getElementById('referit_de').style.display = 'block';
+            else
+                document.getElementById('referit_de').style.display = 'none';
+        }
+        window.scrollTo(0, 0);
+
+    }
+    function alege_articol(tip, select) {
+        var element_selectat = select.options[select.selectedIndex].text;
+        var id_elem = '';
+
+        if (tip == 1)
+            id = "actiuni_suferite";
+        else if (tip == 2)
+            id = "actiuni_induse";
+        else if (tip == 3)
+            id = "refera_pe";
+        else
+            id = "referit_de";
+
+        var linii_tabel = document.getElementById(id).childNodes[4].childNodes[0].childNodes;
+
+        if (element_selectat == 'Toate sectiunile')
+            for (i = 0; i < linii_tabel.length; i++) {
+                linii_tabel[i].style.display = 'table-row';
+            }
+        else {
+            linii_tabel[0].style.display = 'table-row';
+            for (i = 1; i < linii_tabel.length; i++) {
+                var element_gasit = linii_tabel[i].childNodes[0].innerHTML;
+                if (element_selectat != element_gasit)
+                    linii_tabel[i].style.display = 'none';
+                else
+                    linii_tabel[i].style.display = 'table-row';
+            }
+        }
+    }
+
+    function alege_articol_ref(select) {
+        var element_selectat = select.options[select.selectedIndex].text;
+
+        $("#loaderDiv").show();
+        $.post("/Public/getReferitDe", { contor: document.getElementById('id_act').value, element: element_selectat }, function (result) {
+            if (result.acte.indexOf('Nu exist') != -1)
+                document.getElementById('referit_de').style.height = '30px';
+            document.getElementById('referit_de').innerHTML = result.acte;
+            $("#loaderDiv").hide();
+        });
+
+    }
+
+    function incarcaFormaDeBaza(contor) {
+        $.post("/Public/DetaliiDocument/203218", { isFormaDeBaza: true }, function (result) {
+            window.location.href = result.Url;
+        });
+    }
+    function myFunction() {
+        var latime = window.innerWidth;
+        if (latime < 1010) {
+            if (document.getElementById('sidebar')) {
+                document.getElementById('meniutitlu').appendChild(document.getElementById('sidebar'));
+                document.getElementById('sidebar').style.display = 'block';
+                // $("#sidebar").hide(); // display : none
+                // $("#sidebar").show(); // display : default
+                document.getElementById('sidebar').id = 'sidebar1';
+            }
+        }
+        else {
+            if (document.getElementById('sidebar1')) {
+                document.getElementById('meniu').insertBefore(document.getElementById('sidebar1'), document.getElementById('infoact'));
+                document.getElementById('sidebar1').style.display = 'block';
+                document.getElementById('sidebar1').id = 'sidebar';
+                setTimeout(function () { $("#sidebar").height(sbarHeight); }, 1000);
+                
+            }
+            else {
+                document.getElementById('meniu').insertBefore(document.getElementById('sidebar'), document.getElementById('infoact'));
+                document.getElementById('sidebar').style.display = 'block';
+                //document.getElementById('sidebar').id = 'sidebar';
+            }
+        }
+    }
+    //document.getElementById('menu').appendChild(document.getElementById('sidebar'));
+    //document.getElementById('sidebar').style.display = 'inline';
+    //document.getElementById('sidebar').style.zIndex = '999';
+    window.onresize = myFunction;
+
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    $(document).ready(function () {
+        doResizeMenu();
+    });
+    $(window).resize(function () {
+        doResizeMenu();
+    });
+</script>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+            <div class="clear"></div>
+ 
+        </div>
+        <footer>
+            <div id="footer_wrapper">
+                <div class="footer_wrapper_inner bs-docs-footer">
+                    <div class="footer_inner">
+                        <div class="footer_logo"></div>
+                        <ul class="top_menu">
+                            <li class="floatnone" style="margin-left: -70px;">
+                                <center>
+                                    <div style="max-width:1024px;">
+                                        <br><img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/justitie_logo.png" style="max-width:90px; position:relative; z-index:9999; width:100%; margin-top:-35px;" align="left" alt="logo">
+                                        <p style="text-transform:none;">Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României.</p>
+                                        <br>
+                                        <center><p style="text-transform:none;">Pentru informații detaliate despre celelalte programe cofinanțate de Uniunea Europeană, vă invităm să vizitați <a onmouseover="this.style.color = '#386897'" onmouseout="    this.style.color = '#ffffff'" style="color: #ffffff; font-weight:bold;" href="http://www.fonduri-ue.ro/">www.fonduri-ue.ro</a>.</p></center>
+                                    </div>
+                                </center>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_inner">
+                        <div class="copyright left">
+                            Copyright © 2026 - Ministerul Justiției. Toate drepturile rezervate. - <a href="https://legislatie.just.ro/Public/Termeni">Termeni și Condiții</a>
+                            <div id="meniufooter">
+
+                            </div>
+                        </div>
+                        <div class="copyright right">        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="https://legislatie.just.ro/Public/Acasa">
+
+    &nbsp;|&nbsp;Acasă
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="https://legislatie.just.ro/Public/NLEX">
+
+    &nbsp;|&nbsp;Despre Proiect
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="https://legislatie.just.ro/Public/Functionalitati">
+
+    &nbsp;|&nbsp;Facilități Oferite 
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="https://legislatie.just.ro/Public/LegaturiUtile">
+
+    &nbsp;|&nbsp;Legături Utile
+
+</a>
+        </li>
+
+
+</div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.toggle-menu').jPushMenu();
+
+                $('ul.mainmenu li.dropdown').hover(function () {
+                    $(this).find('a.main_link').addClass('active');
+                    $(this).find('.level2_menu').show();
+                    $('li.dropdown_2').hover(function () {
+                        $(this).find('a.second_link').addClass('second_active');
+                        $(this).find('.level3_menu').show();
+
+                    }, function () {
+                        $(this).find('a.second_link').removeClass('second_active');
+                        $('.level3_menu').hide();
+                    });
+
+                }, function () {
+                    $(this).find('a.main_link').removeClass('active');
+                    $('.level2_menu').hide();
+                });
+    
+                if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+
+                    $('#mesajIe8Modal').modal('show');
+
+                }
+            });
+            //
+
+
+
+            $(document).ready(function () {
+
+
+                //stick in the fixed 100% height behind the navbar but don't wrap it
+                $('#slide-nav.navbar-inverse').after($('<div class="inverse" id="navbar-height-col"></div>'));
+
+                $('#slide-nav.navbar-default').after($('<div id="navbar-height-col"></div>'));
+
+                // Enter your ids or classes
+                var toggler = '.navbar-toggle';
+                var pagewrapper = '#page-content';
+                var navigationwrapper = '.navbar-header';
+                var menuwidth = '100%'; // the menu inside the slide menu itself
+                var slidewidth = '60%';
+                var menuneg = '-100%';
+                var slideneg = '-60%';
+
+
+                $("#slide-nav").on("click", toggler, function (e) {
+
+                    var selected = $(this).hasClass('slide-active');
+
+                    $('#slidemenu').stop().animate({
+                        left: selected ? menuneg : '0px'
+                    });
+
+                    $('#navbar-height-col').stop().animate({
+                        left: selected ? slideneg : '0px'
+                    });
+
+                    $(pagewrapper).stop().animate({
+                        left: selected ? '0px' : slidewidth
+                    });
+
+                    $(navigationwrapper).stop().animate({
+                        left: selected ? '0px' : slidewidth
+                    });
+
+
+                    $(this).toggleClass('slide-active', !selected);
+                    $('#slidemenu').toggleClass('slide-active');
+
+
+                    $('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
+
+
+                });
+
+
+                var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
+
+
+                $(window).on("resize", function () {
+
+                    if ($(window).width() > 1010 && $('.navbar-toggle').is(':hidden')) {
+                        $(selected).removeClass('slide-active');
+                    }
+
+
+                });
+
+
+            });
+        </script>
+        
+    </div>
+    <script>
+
+        function replaceScript() {
+            var toReplace = '';
+            var replaceWith = '';
+            document.body.innerHTML = document.body.innerHTML.replace(toReplace, replaceWith);
+        }
+        replaceScript();
+
+        if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+            $("#toTop").hide();
+            $(".meniunu").hide();
+            $(".icon-bar").hide();
+            $("#btnNavbar").hide();
+            $(".navbar-header").hide();
+            $("body").css("min-width", "600px");
+
+        }
+
+       /* if (navigator.appName.indexOf("Netscape") != -1) {
+            $("#page_wrapper").css("transform", "scale(0.8)");
+            alert(0);
+            $("#page_wrapper").css("transform-origin", "50% 0% ");
+        }*/
+    </script>
+    
+    <!-- BETA Mesaj -->
+    <div class="modal fade" id="mesajBetaModal" tabindex="-1" role="dialog" aria-labelledby="mesajBetaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 700px; margin: 5% auto; ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Inchide</span></button>
+                    <br><div class="alert alert-danger" role="alert" style="visibility: hidden;"> <center>Versiune Beta</center></div>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        A fost lansata versiunea Beta a Portalului Legislativ<br><br><br>
+                    Fiind o versiune Beta, este posibil ca unele facilitati sa nu functioneze in mod corect.</center>  
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Inchide mesajul de atentionare</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- IE8 Mesaj -->
+    <div class="modal fade" id="mesajIe8Modal" tabindex="-1" role="dialog" aria-labelledby="mesajIe8ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 700px; margin: 5% auto; ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Inchide</span></button>
+                    <br><div class="alert alert-danger" role="alert"> <center>Datorita
+ faptului ca folositi o versiune de Internet Explorer (Internet Explorer
+ 8) foarte veche este posibil ca unele functionalitati sa fie 
+dezactivate sau sa nu functioneze corect!</center></div>
+                </div>
+                <div class="modal-body">
+                    <div style="width:100%;">
+                        <div style="width:50%; float:left; text-transform:uppercase;">
+                            <span style="font-size:18px; font-weight:bold; text-transform:none;">Ce browser sa aleg?</span>
+                            <br><br><br>
+                            <div class="row">
+                                <img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/chrome.jpg" align="left" width="69" style="padding-right:10px;"><b>Google Chrome</b><br>
+                                <br><a href="http://www.google.com/chrome" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br>
+
+                            <div class="row">
+                                <img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/firefox.jpg" align="left" width="69" style="padding-right:10px;"><b>Mozilla Firefox</b><br>
+                                <br><a href="https://www.mozilla.org/en-US/firefox/all/?q=romania" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br>
+                            <div class="row">
+                                <img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/ie.jpg" align="left" width="69" style="padding-right:10px;"><b>Internet Explorer</b><br>
+                                <br>
+                                <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br>
+                            <div class="row">
+                                <img src="LEGE%20212%2025_07_2018%20-%20Portal%20Legislativ_files/safari.jpg" align="left" width="69" style="padding-right:10px;"><b>Apple Safari</b><br>
+                                <br><a href="http://www.apple.com/safari/" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div>
+                        </div>
+                        <div style="width:50%; float:left;">
+                            <span style="font-size:18px; font-weight:bold;">De ce sa actualizez browserul?</span>
+                            <br><br><br>
+                            Browserele invechite, cum ar fi Internet 
+Explorer 8 (lansat în 2001) nu respecta standardele web, nu ofera unele 
+facilitati noi browser-ului, cum ar fi de navigatie sau descarcare, 
+managerul de tab-uri, si au probleme de securitate.
+                            <br><br>
+                            Aceasta afecteaza, de asemenea, calitatea de redare site-uri web.
+                            <br><br><br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Inchide mesajul de atentionare</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
